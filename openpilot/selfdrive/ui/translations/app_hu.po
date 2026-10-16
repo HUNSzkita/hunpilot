@@ -120,7 +120,7 @@ msgstr "Rejtett hálózat"
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 #: openpilot/system/ui/widgets/network.py
 msgid "CONNECT"
-msgstr "CSATLAKOZÁS"
+msgstr "KAPCSOLAT"
 
 #: openpilot/system/ui/widgets/network.py
 msgid "Wrong password"
@@ -253,7 +253,7 @@ msgstr "Tölts fel minél több tanítóadatot, hogy javuljanak az openpilot vez
 
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Finish Setup"
-msgstr "Beállítás befejezése"
+msgstr "Még egy lépés"
 
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Pair device"
