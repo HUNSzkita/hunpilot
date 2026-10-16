@@ -219,7 +219,7 @@ msgstr "A sebesség kijelzése km/h-ban mph helyett."
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
 msgid "Do all of my segments get pulled in Firehose Mode?"
-msgstr "Firehose módban az összes útszakaszom feltöltődik?"
+msgstr "Adatgyűjtő módban az összes útszakaszom feltöltődik?"
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
 msgid "Does it matter how or where I drive?"
@@ -323,13 +323,13 @@ msgstr "Még egy lépés"
 
 #: openpilot/selfdrive/ui/layouts/settings/settings.py
 msgid "Firehose"
-msgstr "Firehose"
+msgstr "Adatgyűjtés"
 
 #: openpilot/selfdrive/ui/layouts/settings/firehose.py
 #: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Firehose Mode"
-msgstr "Firehose mód"
+msgstr "Adatgyűjtő mód (Firehose)"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Following Distance"
@@ -343,7 +343,7 @@ msgid ""
 msgstr ""
 "A legjobb hatás érdekében hetente vidd be az eszközt, és csatlakoztasd egy jó USB-C töltőhöz és Wi-Fi-hez.\n"
 "\n"
-"A Firehose mód vezetés közben is működik, ha hotspothoz vagy korlátlan adatforgalmú SIM-kártyához csatlakozol."
+"Az adatgyűjtő mód vezetés közben is működik, ha hotspothoz vagy korlátlan adatforgalmú SIM-kártyához csatlakozol."
 
 #: openpilot/selfdrive/ui/layouts/settings/firehose.py
 msgid ""
@@ -364,14 +364,14 @@ msgid ""
 msgstr ""
 "A legjobb hatás érdekében hetente vidd be az eszközt, és csatlakoztasd egy jó USB-C töltőhöz és Wi-Fi-hez.\n"
 "\n"
-"A Firehose mód vezetés közben is működik, ha hotspothoz vagy korlátlan adatforgalmú SIM-kártyához csatlakozol.\n"
+"Az adatgyűjtő mód vezetés közben is működik, ha hotspothoz vagy korlátlan adatforgalmú SIM-kártyához csatlakozol.\n"
 "\n"
 "\n"
 "Gyakori kérdések\n"
 "\n"
 "Számít, hogyan vagy hol vezetek? Nem, vezess úgy, ahogy szoktál.\n"
 "\n"
-"Firehose módban az összes útszakaszom feltöltődik? Nem, csak egy válogatott részük.\n"
+"Adatgyűjtő módban az összes útszakaszom feltöltődik? Nem, csak egy válogatott részük.\n"
 "\n"
 "Milyen USB-C töltő jó? Bármelyik gyors telefon- vagy laptoptöltő megfelel.\n"
 "\n"
@@ -913,7 +913,7 @@ msgid ""
 msgstr ""
 "Az openpilot úgy tanul vezetni, hogy embereket figyel vezetés közben, például téged is.\n"
 "\n"
-"A Firehose mód maximalizálja a tanítóadatok feltöltését, így javulnak az openpilot vezetési modelljei. Több adat nagyobb modellt jelent, a nagyobb modell pedig jobb Kísérleti módot (Experimental Mode)."
+"Az adatgyűjtő mód maximalizálja a tanítóadatok feltöltését, így javulnak az openpilot vezetési modelljei. Több adat nagyobb modellt jelent, a nagyobb modell pedig jobb Kísérleti módot (Experimental Mode)."
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "openpilot requires the device to be mounted within 4° left or right and within 5° up or 9° down."
