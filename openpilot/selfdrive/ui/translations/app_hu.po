@@ -168,11 +168,11 @@ msgstr "BETÖLTÉS"
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py
 msgid "ADD"
-msgstr "HOZZÁADÁS"
+msgstr "ÚJ"
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py
 msgid "REMOVE"
-msgstr "ELTÁVOLÍTÁS"
+msgstr "TÖRLÉS"
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py
 msgid "Request timed out"
