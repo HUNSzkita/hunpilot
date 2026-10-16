@@ -294,6 +294,7 @@ PLURAL_FORMS: dict[str, str] = {
   'en': 'nplurals=2; plural=(n != 1);',
   'de': 'nplurals=2; plural=(n != 1);',
   'hu': 'nplurals=2; plural=(n != 1);',
+  'hu-informal': 'nplurals=2; plural=(n != 1);',
   'fr': 'nplurals=2; plural=(n > 1);',
   'es': 'nplurals=2; plural=(n != 1);',
   'pt-BR': 'nplurals=2; plural=(n > 1);',

@@ -14,7 +14,7 @@ msgstr " A kormánynyomaték-válasz kalibrációja {}%-ban kész."
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid " Your device is pointed {:.1f}° {} and {:.1f}° {}."
-msgstr " Az eszközöd {:.1f}°-kal {} és {:.1f}°-kal {} dől."
+msgstr " Az eszköze {:.1f}°-kal {} és {:.1f}°-kal {} dől."
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "--"
@@ -42,7 +42,7 @@ msgstr "5G"
 
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "<b>WARNING: openpilot longitudinal control is in alpha for this car and may disable Automatic Emergency Braking (AEB).</b><br><br>On this car, openpilot defaults to the car's built-in ACC instead of openpilot's longitudinal control. Enable this to switch to openpilot longitudinal control. Changing this setting will restart openpilot if the car is powered on."
-msgstr "<b>FIGYELEM: ennél az autónál az openpilot hosszirányú vezérlése (gáz és fék) alfa állapotú, és kikapcsolhatja az automatikus vészfékezést (AEB).</b><br><br>Ennél az autónál az openpilot alapból az autó gyári adaptív tempomatját (ACC) használja a saját hosszirányú vezérlése helyett. Ezzel a kapcsolóval az openpilot hosszirányú vezérlésére válthatsz. A beállítás módosítása újraindítja az openpilotot, ha az autó be van kapcsolva."
+msgstr "<b>FIGYELEM: ennél az autónál az openpilot hosszirányú vezérlése (gáz és fék) alfa állapotú, és kikapcsolhatja az automatikus vészfékezést (AEB).</b><br><br>Ennél az autónál az openpilot alapból az autó gyári adaptív tempomatját (ACC) használja a saját hosszirányú vezérlése helyett. Ezzel a kapcsolóval az openpilot hosszirányú vezérlésére válthat. A beállítás módosítása újraindítja az openpilotot, ha az autó be van kapcsolva."
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "<br><br>Steering lag calibration is complete."
@@ -58,7 +58,7 @@ msgstr "AKTÍV"
 
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "ADB (Android Debug Bridge) allows connecting to your device over USB or over the network. See https://docs.comma.ai/how-to/connect-to-comma for more info."
-msgstr "Az ADB (Android Debug Bridge) lehetővé teszi, hogy USB-n vagy hálózaton keresztül csatlakozz az eszközhöz. Bővebben: https://docs.comma.ai/how-to/connect-to-comma"
+msgstr "Az ADB (Android Debug Bridge) lehetővé teszi, hogy USB-n vagy hálózaton keresztül csatlakozzon az eszközhöz. Bővebben: https://docs.comma.ai/how-to/connect-to-comma"
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py
 msgid "ADD"
@@ -94,19 +94,19 @@ msgstr "Bármelyik gyors telefon- vagy laptoptöltő megfelel."
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Are you sure you want to power off?"
-msgstr "Biztosan kikapcsolod?"
+msgstr "Biztosan kikapcsolja?"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Are you sure you want to reboot?"
-msgstr "Biztosan újraindítod?"
+msgstr "Biztosan újraindítja?"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Are you sure you want to reset calibration?"
-msgstr "Biztosan visszaállítod a kalibrációt?"
+msgstr "Biztosan visszaállítja a kalibrációt?"
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "Are you sure you want to uninstall?"
-msgstr "Biztosan eltávolítod?"
+msgstr "Biztosan eltávolítja?"
 
 #: openpilot/selfdrive/ui/layouts/onboarding.py
 #: openpilot/system/ui/widgets/network.py
@@ -115,11 +115,11 @@ msgstr "Vissza"
 
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "Become a comma prime member at connect.comma.ai"
-msgstr "Legyél comma prime tag: connect.comma.ai"
+msgstr "Legyen comma prime tag: connect.comma.ai"
 
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "Bookmark connect.comma.ai to your home screen to use it like an app"
-msgstr "Tedd ki a connect.comma.ai oldalt a kezdőképernyőre, így alkalmazásként használhatod"
+msgstr "Tegye ki a connect.comma.ai oldalt a kezdőképernyőre, így alkalmazásként használhatja"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "CHANGE"
@@ -163,7 +163,7 @@ msgstr "A beállítás módosítása újraindítja az openpilotot, ha az autó b
 
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "Click \"add new device\" and scan the QR code on the right"
-msgstr "Koppints az „add new device” gombra, és olvasd be a jobb oldali QR-kódot"
+msgstr "Koppintson az „add new device” gombra, és olvassa be a jobb oldali QR-kódot"
 
 #: openpilot/selfdrive/ui/widgets/offroad_alerts.py
 msgid "Close"
@@ -203,15 +203,15 @@ msgstr "Kikapcsolás gázpedál lenyomásakor"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Disengage to Power Off"
-msgstr "A kikapcsoláshoz kapcsold ki az openpilotot"
+msgstr "A kikapcsoláshoz kapcsolja ki az openpilotot"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Disengage to Reboot"
-msgstr "Az újraindításhoz kapcsold ki az openpilotot"
+msgstr "Az újraindításhoz kapcsolja ki az openpilotot"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Disengage to Reset Calibration"
-msgstr "A kalibráció visszaállításához kapcsold ki az openpilotot"
+msgstr "A kalibráció visszaállításához kapcsolja ki az openpilotot"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Display speed in km/h instead of mph."
@@ -283,7 +283,7 @@ msgstr "openpilot bekapcsolása"
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/network/esim_ui.py
 msgid "Ensure you're connected to the internet and try again."
-msgstr "Ellenőrizd az internetkapcsolatot, és próbáld újra."
+msgstr "Ellenőrizze az internetkapcsolatot, és próbálja újra."
 
 #: openpilot/system/ui/widgets/network.py
 msgid "Enter APN"
@@ -303,7 +303,7 @@ msgstr "Jelszó megadása"
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py
 msgid "Enter your GitHub username"
-msgstr "Add meg a GitHub-felhasználóneved"
+msgstr "Adja meg a GitHub-felhasználónevét"
 
 #: openpilot/system/ui/widgets/list_view.py
 msgid "Error"
@@ -315,7 +315,7 @@ msgstr "ELFELEJTÉS..."
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/software.py
 msgid "Failed to get available branches. Ensure you're connected to the internet and try again."
-msgstr "Nem sikerült lekérni az elérhető ágakat. Ellenőrizd az internetkapcsolatot, és próbáld újra."
+msgstr "Nem sikerült lekérni az elérhető ágakat. Ellenőrizze az internetkapcsolatot, és próbálja újra."
 
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Finish Setup"
@@ -341,9 +341,9 @@ msgid ""
 "\n"
 "Firehose Mode can also work while you're driving if connected to a hotspot or unlimited SIM card."
 msgstr ""
-"A legjobb hatás érdekében hetente vidd be az eszközt, és csatlakoztasd egy jó USB-C töltőhöz és Wi-Fi-hez.\n"
+"A legjobb hatás érdekében hetente vigye be az eszközt, és csatlakoztassa egy jó USB-C töltőhöz és Wi-Fi-hez.\n"
 "\n"
-"Az adatgyűjtő mód vezetés közben is működik, ha hotspothoz vagy korlátlan adatforgalmú SIM-kártyához csatlakozol."
+"Az adatgyűjtő mód vezetés közben is működik, ha hotspothoz vagy korlátlan adatforgalmú SIM-kártyához csatlakozik."
 
 #: openpilot/selfdrive/ui/layouts/settings/firehose.py
 msgid ""
@@ -362,14 +362,14 @@ msgid ""
 "\n"
 "Does it matter which software I run? Yes, only upstream openpilot (and particular forks) are able to be used for training."
 msgstr ""
-"A legjobb hatás érdekében hetente vidd be az eszközt, és csatlakoztasd egy jó USB-C töltőhöz és Wi-Fi-hez.\n"
+"A legjobb hatás érdekében hetente vigye be az eszközt, és csatlakoztassa egy jó USB-C töltőhöz és Wi-Fi-hez.\n"
 "\n"
-"Az adatgyűjtő mód vezetés közben is működik, ha hotspothoz vagy korlátlan adatforgalmú SIM-kártyához csatlakozol.\n"
+"Az adatgyűjtő mód vezetés közben is működik, ha hotspothoz vagy korlátlan adatforgalmú SIM-kártyához csatlakozik.\n"
 "\n"
 "\n"
 "Gyakori kérdések\n"
 "\n"
-"Számít, hogyan vagy hol vezetek? Nem, vezess úgy, ahogy szoktál.\n"
+"Számít, hogyan vagy hol vezetek? Nem, vezessen úgy, ahogy szokott.\n"
 "\n"
 "Adatgyűjtő módban az összes útszakaszom feltöltődik? Nem, csak egy válogatott részük.\n"
 "\n"
@@ -383,7 +383,7 @@ msgstr "Elfelejtés"
 
 #: openpilot/system/ui/widgets/network.py
 msgid "Forget Wi-Fi Network \"{}\"?"
-msgstr "Elfelejted a(z) „{}” Wi-Fi hálózatot?"
+msgstr "Elfelejti a(z) „{}” Wi-Fi hálózatot?"
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
 msgid "Frequently Asked Questions"
@@ -395,7 +395,7 @@ msgstr "JÓ"
 
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "Go to https://connect.comma.ai on your phone"
-msgstr "Nyisd meg a telefonodon: https://connect.comma.ai"
+msgstr "Nyissa meg a telefonján: https://connect.comma.ai"
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "HIGH"
@@ -407,7 +407,7 @@ msgstr "Rejtett hálózat"
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
 msgid "INACTIVE: connect to an unmetered network"
-msgstr "INAKTÍV: csatlakozz korlátlan adatforgalmú hálózathoz"
+msgstr "INAKTÍV: csatlakozzon korlátlan adatforgalmú hálózathoz"
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "INSTALL"
@@ -460,11 +460,11 @@ msgstr "MPH"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Max speed when engaging openpilot. If you are already driving faster, your current speed is used. Resume restores the previous max speed. Changes apply the next time you engage."
-msgstr "Az openpilot bekapcsolásakor beállított legnagyobb sebesség. Ha már gyorsabban haladsz, a jelenlegi sebességed lesz érvényes. A Folytatás (Resume) az előző max. sebességet állítja vissza. A módosítás a következő bekapcsoláskor lép életbe."
+msgstr "Az openpilot bekapcsolásakor beállított legnagyobb sebesség. Ha már gyorsabban halad, a jelenlegi sebessége lesz érvényes. A Folytatás (Resume) az előző max. sebességet állítja vissza. A módosítás a következő bekapcsoláskor lép életbe."
 
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Maximize your training data uploads to improve openpilot's driving models."
-msgstr "Tölts fel minél több tanítóadatot, hogy javuljanak az openpilot vezetési modelljei."
+msgstr "Töltsön fel minél több tanítóadatot, hogy javuljanak az openpilot vezetési modelljei."
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "N/A"
@@ -492,7 +492,7 @@ msgstr "Nem, csak egy válogatott részük."
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
 msgid "Nope, just drive as you normally would."
-msgstr "Nem, vezess úgy, ahogy szoktál."
+msgstr "Nem, vezessen úgy, ahogy szokott."
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "OFFLINE"
@@ -537,24 +537,24 @@ msgstr "Eszköz párosítása"
 
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "Pair your device to your comma account"
-msgstr "Párosítsd az eszközt a comma-fiókoddal"
+msgstr "Párosítsa az eszközt a comma-fiókjával"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Pair your device with comma connect (connect.comma.ai) and claim your comma prime offer."
-msgstr "Párosítsd az eszközt a comma connecttel (connect.comma.ai), és vedd igénybe a comma prime ajánlatot."
+msgstr "Párosítsa az eszközt a comma connecttel (connect.comma.ai), és vegye igénybe a comma prime ajánlatot."
 
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Please connect to Wi-Fi to complete initial pairing"
-msgstr "Csatlakozz Wi-Fi-hez az első párosítás befejezéséhez"
+msgstr "Csatlakozzon Wi-Fi-hez az első párosítás befejezéséhez"
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/device/device_layout.py
 msgid "Please connect to Wi-Fi to complete initial pairing."
-msgstr "Csatlakozz Wi-Fi-hez az első párosítás befejezéséhez."
+msgstr "Csatlakozzon Wi-Fi-hez az első párosítás befejezéséhez."
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/software.py
 msgid "Please connect to Wi-Fi to update."
-msgstr "A frissítéshez csatlakozz Wi-Fi-hez."
+msgstr "A frissítéshez csatlakozzon Wi-Fi-hez."
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Power Off"
@@ -570,7 +570,7 @@ msgstr "Nagy adatfeltöltések tiltása forgalomkorlátos mobilneten"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Preview the cabin camera to ensure that driver monitoring has good visibility. (vehicle must be off)"
-msgstr "Nézd meg a belső kamera képét, hogy a sofőrfigyelés jól lát-e. (az autó legyen kikapcsolva)"
+msgstr "Nézze meg a belső kamera képét, hogy a sofőrfigyelés jól lát-e. (az autó legyen kikapcsolva)"
 
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "QR Code Error"
@@ -602,7 +602,7 @@ msgstr "Újraindítás és frissítés"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Receive alerts to steer back into the lane when your vehicle drifts over a detected lane line without a turn signal activated while driving over 31 mph (50 km/h)."
-msgstr "Figyelmeztetést kapsz, hogy kormányozz vissza a sávba, ha az autó index nélkül átlépi a felismert sávjelzést 50 km/h (31 mph) feletti sebességnél."
+msgstr "Figyelmeztetést kap, hogy kormányozzon vissza a sávba, ha az autó index nélkül átlépi a felismert sávjelzést 50 km/h (31 mph) feletti sebességnél."
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Record and Upload Cabin Camera"
@@ -670,11 +670,11 @@ msgstr "Kiválasztás"
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "Select a branch"
-msgstr "Válassz ágat"
+msgstr "Válasszon ágat"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Select a language"
-msgstr "Válassz nyelvet"
+msgstr "Válasszon nyelvet"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Serial"
@@ -694,7 +694,7 @@ msgstr "Normál"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Standard is recommended. In aggressive mode, openpilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode openpilot will stay further away from lead cars. On supported cars, you can cycle through these settings with your steering wheel distance button."
-msgstr "A Normál ajánlott. Sportos módban az openpilot közelebb követi az elöl haladó autót, és határozottabban gyorsít és fékez. Laza módban nagyobb távolságot tart. Támogatott autóknál a kormányon lévő távolságállító gombbal is válthatsz a beállítások között."
+msgstr "A Normál ajánlott. Sportos módban az openpilot közelebb követi az elöl haladó autót, és határozottabban gyorsít és fékez. Laza módban nagyobb távolságot tart. Támogatott autóknál a kormányon lévő távolságállító gombbal is válthat a beállítások között."
 
 #: openpilot/selfdrive/ui/onroad/alert_renderer.py
 msgid "System Unresponsive"
@@ -702,7 +702,7 @@ msgstr "A rendszer nem válaszol"
 
 #: openpilot/selfdrive/ui/onroad/alert_renderer.py
 msgid "TAKE CONTROL IMMEDIATELY"
-msgstr "AZONNAL VEDD ÁT AZ IRÁNYÍTÁST"
+msgstr "AZONNAL VEGYE ÁT AZ IRÁNYÍTÁST"
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "TEMP"
@@ -758,7 +758,7 @@ msgstr "Metrikus rendszer használata"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Use the openpilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature."
-msgstr "Az openpilot rendszer használata adaptív tempomathoz és sávtartáshoz. A funkció használata közben mindig figyelned kell."
+msgstr "Az openpilot rendszer használata adaptív tempomathoz és sávtartáshoz. A funkció használata közben mindig figyelnie kell."
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "VEHICLE"
@@ -774,7 +774,7 @@ msgstr "Indításra vár"
 
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "Warning: This grants SSH access to all public keys in your GitHub settings. Never enter a GitHub username other than your own. A comma employee will NEVER ask you to add their GitHub username."
-msgstr "Figyelem: ez SSH-hozzáférést ad a GitHub-fiókodban szereplő összes nyilvános kulcsnak. Soha ne adj meg a sajátodtól eltérő GitHub-felhasználónevet. comma-munkatárs SOHA nem fogja kérni, hogy add hozzá az ő GitHub-felhasználónevét."
+msgstr "Figyelem: ez SSH-hozzáférést ad a GitHub-fiókjában szereplő összes nyilvános kulcsnak. Soha ne adjon meg a sajátjától eltérő GitHub-felhasználónevet. comma-munkatárs SOHA nem fogja kérni, hogy adja hozzá az ő GitHub-felhasználónevét."
 
 #: openpilot/selfdrive/ui/layouts/onboarding.py
 msgid "Welcome to openpilot"
@@ -806,11 +806,11 @@ msgstr "Igen, tanításra csak az eredeti openpilot (és néhány fork) adatai h
 
 #: openpilot/selfdrive/ui/layouts/onboarding.py
 msgid "You must accept the Terms and Conditions in order to use openpilot."
-msgstr "Az openpilot használatához el kell fogadnod a Felhasználási feltételeket."
+msgstr "Az openpilot használatához el kell fogadnia a Felhasználási feltételeket."
 
 #: openpilot/selfdrive/ui/layouts/onboarding.py
 msgid "You must accept the Terms and Conditions to use openpilot. Read the latest terms at https://comma.ai/terms before continuing."
-msgstr "Az openpilot használatához el kell fogadnod a Felhasználási feltételeket. Folytatás előtt olvasd el a legfrissebb feltételeket: https://comma.ai/terms"
+msgstr "Az openpilot használatához el kell fogadnia a Felhasználási feltételeket. Folytatás előtt olvassa el a legfrissebb feltételeket: https://comma.ai/terms"
 
 #: openpilot/selfdrive/ui/mici/layouts/onboarding.py
 #: openpilot/selfdrive/ui/mici/layouts/settings/network/esim_ui.py
@@ -863,7 +863,7 @@ msgstr "km/h"
 
 #: openpilot/system/ui/widgets/network.py
 msgid "leave blank for automatic configuration"
-msgstr "hagyd üresen az automatikus beállításhoz"
+msgstr "hagyja üresen az automatikus beállításhoz"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "left"
@@ -911,7 +911,7 @@ msgid ""
 "\n"
 "Firehose Mode allows you to maximize your training data uploads to improve openpilot's driving models. More data means bigger models, which means better Experimental Mode."
 msgstr ""
-"Az openpilot úgy tanul vezetni, hogy embereket figyel vezetés közben, például téged is.\n"
+"Az openpilot úgy tanul vezetni, hogy embereket figyel vezetés közben, például Önt is.\n"
 "\n"
 "Az adatgyűjtő mód maximalizálja a tanítóadatok feltöltését, így javulnak az openpilot vezetési modelljei. Több adat nagyobb modellt jelent, a nagyobb modell pedig jobb Kísérleti módot (Experimental Mode)."
 
@@ -970,8 +970,8 @@ msgstr[1] "{} perce"
 #: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
 msgid "{} segment of your driving is in the training dataset so far."
 msgid_plural "{} segments of your driving is in the training dataset so far."
-msgstr[0] "{} útszakaszod már bekerült a tanító adatkészletbe."
-msgstr[1] "{} útszakaszod már bekerült a tanító adatkészletbe."
+msgstr[0] "{} útszakasza már bekerült a tanító adatkészletbe."
+msgstr[1] "{} útszakasza már bekerült a tanító adatkészletbe."
 
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "✓ SUBSCRIBED"

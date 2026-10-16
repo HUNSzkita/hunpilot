@@ -1,7 +1,8 @@
 {
   "English": "en",
   "Deutsch": "de",
-  "Magyar": "hu",
+  "Magyar (magázó)": "hu",
+  "Magyar (tegező)": "hu-informal",
   "Français": "fr",
   "Português": "pt-BR",
   "Español": "es",
