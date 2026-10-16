@@ -574,11 +574,11 @@ msgstr "Kalibráció visszaállítása"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "RESET"
-msgstr "VISSZAÁLLÍTÁS"
+msgstr "ALAPHELYZET"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Dongle ID"
-msgstr "Dongle-azonosító"
+msgstr "Eszközazonosító (Dongle ID)"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Serial"
@@ -598,7 +598,7 @@ msgstr "Bevezető újranézése"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "REVIEW"
-msgstr "MEGTEKINTÉS"
+msgstr "ÚJRANÉZ"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Regulatory"

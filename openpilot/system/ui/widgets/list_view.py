@@ -87,6 +87,7 @@ class ButtonAction(ItemAction):
     self._value_source: str | Callable[[], str] | None = None
     self._pressed = False
     self._font = gui_app.font(FontWeight.NORMAL)
+    self._fit_font_size = BUTTON_FONT_SIZE
 
     def pressed():
       self._pressed = True
@@ -130,8 +131,19 @@ class ButtonAction(ItemAction):
   def value(self):
     return _resolve_value(self._value_source, "")
 
+  def _fit_button_font(self, text: str) -> None:
+    # HunPilot: shrink the label font when a (translated) text is wider than the button
+    max_width = BUTTON_WIDTH - 30
+    text_width = measure_text_cached(gui_app.font(BUTTON_FONT_WEIGHT), text, BUTTON_FONT_SIZE).x
+    size = BUTTON_FONT_SIZE if text_width <= max_width else max(20, int(BUTTON_FONT_SIZE * max_width / text_width))
+    if size != self._fit_font_size:
+      self._fit_font_size = size
+      self._button._label.set_font_size(size)
+
   def _render(self, rect: rl.Rectangle) -> bool:
-    self._button.set_text(self.text)
+    text = self.text
+    self._fit_button_font(text)
+    self._button.set_text(text)
     self._button.set_enabled(_resolve_value(self.enabled))
     button_rect = rl.Rectangle(rect.x + rect.width - BUTTON_WIDTH, rect.y + (rect.height - BUTTON_HEIGHT) / 2, BUTTON_WIDTH, BUTTON_HEIGHT)
     self._button.render(button_rect)
