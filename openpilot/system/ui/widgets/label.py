@@ -4,6 +4,7 @@ from collections.abc import Callable
 from typing import Union
 import pyray as rl
 
+from openpilot.system.ui.lib.multilang import tr
 from openpilot.system.ui.lib.application import gui_app, FontWeight, DEFAULT_TEXT_SIZE, DEFAULT_TEXT_COLOR, FONT_SCALE, TextAlignment, TextAlignmentVertical
 from openpilot.system.ui.widgets import Widget
 from openpilot.system.ui.lib.text_measure import measure_text_cached
@@ -275,7 +276,8 @@ class UnifiedLabel(Widget):
   @property
   def text(self) -> str:
     """Get the current text content."""
-    return str(_resolve_value(self._text))
+    # HunPilot: translate at draw time, so plain English texts in the comma four (mici) UI follow the language setting
+    return tr(str(_resolve_value(self._text)))
 
   @property
   def font_size(self) -> int:

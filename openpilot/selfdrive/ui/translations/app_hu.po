@@ -24,6 +24,14 @@ msgstr "--"
 msgid "1 year of drive storage"
 msgstr "1 év úttárolás"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "1. openpilot is a driver assistance system."
+msgstr "1. Az openpilot egy vezetéstámogató rendszer."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "2. You must pay attention at all times."
+msgstr "2. Mindig figyelnie kell."
+
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "24/7 LTE connectivity"
 msgstr "Folyamatos LTE-kapcsolat"
@@ -32,9 +40,17 @@ msgstr "Folyamatos LTE-kapcsolat"
 msgid "2G"
 msgstr "2G"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "3. You must be ready to take over at any time."
+msgstr "3. Bármikor készen kell állnia átvenni az irányítást."
+
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "3G"
 msgstr "3G"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "4. You are fully responsible for driving the car."
+msgstr "4. Az autó vezetéséért teljes mértékben Ön felel."
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "5G"
@@ -76,6 +92,10 @@ msgstr "APN-beállítás"
 msgid "Abnormal tire stiffness"
 msgstr "Rendellenes gumimerevség"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Access the device remotely using your SSH keys."
+msgstr "Távoli hozzáférés az eszközhöz az SSH-kulcsaival."
+
 #: openpilot/selfdrive/ui/widgets/offroad_alerts.py
 msgid "Acknowledge Excessive Actuation"
 msgstr "Túlzott beavatkozás nyugtázása"
@@ -95,6 +115,10 @@ msgstr "Sportos"
 #: openpilot/selfdrive/ui/layouts/onboarding.py
 msgid "Agree"
 msgstr "Elfogadom"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Allow cellular data roaming."
+msgstr "Mobiladat-roaming engedélyezése."
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Always keep hands on wheel and eyes on road"
@@ -305,6 +329,10 @@ msgstr "Erősítse meg a sávváltást"
 msgid "Contact comma.ai/support"
 msgstr "Segítség: comma.ai/support"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Control the car with a joystick for debugging."
+msgstr "Az autó joystickos irányítása hibakereséshez."
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Controls Mismatch"
 msgstr "Vezérlési eltérés"
@@ -505,9 +533,21 @@ msgstr "A sofőrfigyelés akkor is működik, ha az openpilot nincs bekapcsolva.
 msgid "Enable openpilot"
 msgstr "openpilot bekapcsolása"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"Enable to use openpilot driver assistance.\n"
+"Disable to use your car's stock driver assistance."
+msgstr ""
+"Bekapcsolva az openpilot vezetéstámogatását használja.\n"
+"Kikapcsolva az autó gyári vezetéstámogatását."
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Enable your car's LKAS to engage"
 msgstr "A bekapcsoláshoz kapcsolja be az autó sávtartóját"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Enabling this will switch to openpilot longitudinal control."
+msgstr "Ezzel az openpilot saját hosszirányú vezérlésére vált."
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Ensure road ahead is clear"
@@ -649,6 +689,10 @@ msgstr "Nem D fokozatban"
 msgid "Go to https://connect.comma.ai on your phone"
 msgstr "Nyissa meg a telefonján: https://connect.comma.ai"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Grant SSH access to all public keys in your GitHub settings. Only enter your own username."
+msgstr "SSH-hozzáférés a GitHub-fiókjában szereplő összes nyilvános kulcsnak. Csak a saját felhasználónevét adja meg."
+
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "HIGH"
 msgstr "MAGAS"
@@ -672,6 +716,10 @@ msgstr "TELEPÍTÉS"
 #: openpilot/system/ui/widgets/network.py
 msgid "IP Address"
 msgstr "IP-cím"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "If it does not have a clear view of the driver, unplug and remount before continuing."
+msgstr "Ha nem látja jól a sofőrt, húzza ki és rögzítse újra az eszközt, mielőtt továbblép."
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Initial Max Speed"
@@ -722,6 +770,10 @@ msgstr "Sávelhagyás"
 msgid "Lateral Maneuver Mode"
 msgstr "Oldalirányú manőver mód"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Loading..."
+msgstr "Betöltés..."
+
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Longitudinal Maneuver Mode"
@@ -748,6 +800,16 @@ msgstr "MAX"
 msgid "MPH"
 msgstr "MPH"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"Max speed when engaging openpilot.\n"
+"If you are already driving faster, your current speed is used.\n"
+"Resume restores the previous max speed."
+msgstr ""
+"Az openpilot bekapcsolásakor beállított legnagyobb sebesség.\n"
+"Ha már gyorsabban halad, a jelenlegi sebessége érvényes.\n"
+"A Folytatás (Resume) az előző max. sebességet állítja vissza."
+
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Max speed when engaging openpilot. If you are already driving faster, your current speed is used. Resume restores the previous max speed. Changes apply the next time you engage."
 msgstr "Az openpilot bekapcsolásakor beállított legnagyobb sebesség. Ha már gyorsabban halad, a jelenlegi sebessége lesz érvényes. A Folytatás (Resume) az előző max. sebességet állítja vissza. A módosítás a következő bekapcsoláskor lép életbe."
@@ -756,9 +818,21 @@ msgstr "Az openpilot bekapcsolásakor beállított legnagyobb sebesség. Ha már
 msgid "Maximize your training data uploads to improve openpilot's driving models."
 msgstr "Töltsön fel minél több tanítóadatot, hogy javuljanak az openpilot vezetési modelljei."
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Metered prevents large uploads on this Wi-Fi connection. Default uses the network's detected setting."
+msgstr "A korlátos mód tiltja a nagy feltöltéseket ezen a Wi-Fi-n. Az alapértelmezett a hálózat saját beállítását használja."
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Model uncertain at this speed"
 msgstr "Ennél a sebességnél a modell bizonytalan"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Monitor the driver even when openpilot is not engaged."
+msgstr "A sofőr figyelése akkor is, ha az openpilot nincs bekapcsolva."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Mount the device within 4° left or right and 5° up or 9° down. openpilot calibrates continuously; resetting is rarely needed. Resetting clears learned calibration."
+msgstr "Az eszköz legfeljebb 4°-kal térhet el balra vagy jobbra, 5°-kal felfelé és 9°-kal lefelé. Az openpilot folyamatosan kalibrál, visszaállításra ritkán van szükség. A visszaállítás törli a tanult kalibrációt."
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "N/A"
@@ -771,6 +845,10 @@ msgstr "NINCS"
 #: openpilot/selfdrive/ui/layouts/settings/settings.py
 msgid "Network"
 msgstr "Hálózat"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Next, we'll check if comma four can detect the driver properly."
+msgstr "Most ellenőrizzük, hogy a comma four jól látja-e a sofőrt."
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py
 msgid "No SSH keys found for user '{}'"
@@ -788,6 +866,10 @@ msgstr "Nem, csak egy válogatott részük."
 msgid "Nope, just drive as you normally would."
 msgstr "Nem, vezessen úgy, ahogy szokott."
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Not set"
+msgstr "Nincs beállítva"
+
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "OFFLINE"
 msgstr "OFFLINE"
@@ -800,6 +882,14 @@ msgstr "OK"
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "ONLINE"
 msgstr "ONLINE"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Offline"
+msgstr "Offline"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "On this car, openpilot defaults to the stock system's built-in ACC."
+msgstr "Ennél az autónál az openpilot alapból a gyári adaptív tempomatot (ACC) használja."
 
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Open"
@@ -866,6 +956,10 @@ msgstr "Csatlakozzon Wi-Fi-hez az első párosítás befejezéséhez"
 msgid "Please connect to Wi-Fi to complete initial pairing."
 msgstr "Csatlakozzon Wi-Fi-hez az első párosítás befejezéséhez."
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Please connect to Wi-Fi to fetch your key."
+msgstr "A kulcs lekéréséhez csatlakozzon Wi-Fi-hez."
+
 #: openpilot/selfdrive/ui/mici/layouts/settings/software.py
 msgid "Please connect to Wi-Fi to update."
 msgstr "A frissítéshez csatlakozzon Wi-Fi-hez."
@@ -902,6 +996,14 @@ msgstr "Nagy adatfeltöltések tiltása forgalomkorlátos Wi-Fi-n"
 msgid "Prevent large data uploads when on a metered cellular connection"
 msgstr "Nagy adatfeltöltések tiltása forgalomkorlátos mobilneten"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Prevent large uploads over the cellular connection."
+msgstr "Nagy feltöltések tiltása mobilneten."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Preview the cabin camera to check driver monitoring visibility. The vehicle must be off."
+msgstr "A belső kamera előnézete a sofőrfigyelés ellenőrzéséhez. Az autó legyen kikapcsolva."
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Preview the cabin camera to ensure that driver monitoring has good visibility. (vehicle must be off)"
 msgstr "Nézze meg a belső kamera képét, hogy a sofőrfigyelés jól lát-e. (az autó legyen kikapcsolva)"
@@ -910,6 +1012,7 @@ msgstr "Nézze meg a belső kamera képét, hogy a sofőrfigyelés jól lát-e. 
 msgid "Process Not Running"
 msgstr "Egy folyamat nem fut"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "QR Code Error"
 msgstr "QR-kód hiba"
@@ -970,6 +1073,14 @@ msgstr "Mikrofonhang rögzítése és feltöltése"
 msgid "Record and store microphone audio while driving. The audio will be included in the dashcam video in comma connect."
 msgstr "Vezetés közben a mikrofon hangjának rögzítése. A hang bekerül a comma connect menetrögzítő videójába."
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"Record microphone audio while driving.\n"
+"Audio is included in dashcam videos in comma connect."
+msgstr ""
+"Mikrofonhang rögzítése vezetés közben.\n"
+"A hang bekerül a comma connect menetrögzítő videóiba."
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Regulatory"
 msgstr "Jogi információk"
@@ -997,6 +1108,14 @@ msgstr "Áthelyezés észlelve: újrakalibrálás"
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Remount Device (Pitch: {}°, Yaw: {}°)"
 msgstr "Rögzítse újra az eszközt (bólintás: {}°, elfordulás: {}°)"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Remount if your face is blocked, or driver monitoring has difficulty tracking your face."
+msgstr "Rögzítse újra az eszközt, ha az arca takarásban van, vagy a sofőrfigyelés nehezen követi."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Remove openpilot from this device."
+msgstr "Az openpilot eltávolítása az eszközről."
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py
 msgid "Request timed out"
@@ -1050,12 +1169,24 @@ msgstr "Az openpilot szabályainak, funkcióinak és korlátainak áttekintése"
 msgid "Risk of Collision"
 msgstr "Ütközésveszély"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Run lateral maneuvers for testing steering control."
+msgstr "Oldalirányú manőverek a kormányvezérlés teszteléséhez."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Run longitudinal maneuvers for testing gas and brake control."
+msgstr "Hosszirányú manőverek a gáz- és fékvezérlés teszteléséhez."
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "SELECT"
 msgstr "KIVÁLASZTÁS"
 
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "SSH Keys"
+msgstr "SSH-kulcsok"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "SSH keys"
 msgstr "SSH-kulcsok"
 
 #: openpilot/system/ui/widgets/network.py
@@ -1082,6 +1213,10 @@ msgstr "Válasszon ágat"
 msgid "Select a language"
 msgstr "Válasszon nyelvet"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Select the software branch to download on the next update check."
+msgstr "Válassza ki, melyik szoftverág töltődjön le a következő frissítéskereséskor."
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Selfdrive Process Lagging: Reboot Your Device"
 msgstr "Lassú vezérlőfolyamat: indítsa újra az eszközt"
@@ -1093,6 +1228,22 @@ msgstr "Hibás érzékelőadatok"
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Serial"
 msgstr "Sorozatszám"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Set the access point name required by your cellular carrier. Leave blank for automatic configuration."
+msgstr "A mobilszolgáltató által kért hozzáférési pont (APN) neve. Hagyja üresen az automatikus beállításhoz."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Share the device's internet connection through a Wi-Fi hotspot."
+msgstr "Az eszköz internetkapcsolatának megosztása Wi-Fi hotspoton keresztül."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Sharing your data with comma helps improve openpilot for everyone."
+msgstr "Az adatai megosztása a comma-val mindenki számára jobbá teszi az openpilotot."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Show touch locations and the UI frame rate."
+msgstr "Érintések és a felület képfrissítésének kijelzése."
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Slow down to engage"
@@ -1121,6 +1272,18 @@ msgstr "Túl kis sebesség"
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Standard"
 msgstr "Normál"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"Standard is recommended.\n"
+"Aggressive follows closer, with firmer gas and braking.\n"
+"Relaxed leaves more space.\n"
+"Use the steering wheel distance button on supported cars."
+msgstr ""
+"A Normál ajánlott.\n"
+"Sportos: közelebb követ, határozottabban gyorsít és fékez.\n"
+"Laza: nagyobb távolságot tart.\n"
+"Támogatott autóknál a kormányon lévő távolsággombbal is válthat."
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Standard is recommended. In aggressive mode, openpilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode openpilot will stay further away from lead cars. On supported cars, you can cycle through these settings with your steering wheel distance button."
@@ -1247,6 +1410,10 @@ msgstr "Fogja meg a kormányt: nem látom az arcát"
 msgid "Turn Exceeds Steering Limit"
 msgstr "Túl éles kanyar a kormányzáshoz"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Turn-by-turn navigation with a route map. Set a destination from comma connect."
+msgstr "Részletes navigáció útvonaltérképpel. Az úti célt a comma connectben állíthatja be."
+
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "UI Debug Mode"
 msgstr "Felület hibakereső mód"
@@ -1279,13 +1446,25 @@ msgstr "A frissítések csak kikapcsolt autónál töltődnek le."
 msgid "Upgrade Now"
 msgstr "Előfizetés most"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Upload cabin camera data to help improve driver monitoring."
+msgstr "Belső kamera adatainak feltöltése a sofőrfigyelés fejlesztéséhez."
+
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Upload data from the cabin camera and help improve the driver monitoring algorithm."
 msgstr "A belső kamera adatainak feltöltése a sofőrfigyelő algoritmus fejlesztéséhez."
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Use Android Debug Bridge (ADB) over USB or the network."
+msgstr "Android Debug Bridge (ADB) használata USB-n vagy hálózaton keresztül."
+
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Use Metric System"
 msgstr "Metrikus rendszer használata"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Use alpha openpilot longitudinal control instead of stock ACC. This may disable Automatic Emergency Braking (AEB)."
+msgstr "Alfa openpilot hosszirányú vezérlés a gyári ACC helyett. Ez kikapcsolhatja az automatikus vészfékezést (AEB)."
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Use the openpilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature."
@@ -1315,9 +1494,21 @@ msgstr "Lejárt a kormányzási időkorlát"
 msgid "WARNING: This branch is not tested"
 msgstr "FIGYELEM: ez az ág nincs tesztelve"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "WARNING: alpha longitudinal control may disable Automatic Emergency Braking (AEB)"
+msgstr "FIGYELEM: az alfa hosszirányú vezérlés kikapcsolhatja az automatikus vészfékezést (AEB)"
+
 #: openpilot/selfdrive/ui/onroad/alert_renderer.py
 msgid "Waiting to start"
 msgstr "Indításra vár"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"Warn when you drift across a detected lane line.\n"
+"Only above 31 mph (50 km/h), with no turn signal."
+msgstr ""
+"Figyelmeztet, ha index nélkül átlépi a felismert sávjelzést.\n"
+"Csak 50 km/h (31 mph) felett."
 
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "Warning: This grants SSH access to all public keys in your GitHub settings. Never enter a GitHub username other than your own. A comma employee will NEVER ask you to add their GitHub username."
@@ -1351,6 +1542,10 @@ msgstr "Hibás jelszó"
 msgid "Yes, only upstream openpilot (and particular forks) are able to be used for training."
 msgstr "Igen, tanításra csak az eredeti openpilot (és néhány fork) adatai használhatók."
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "You must accept the Terms & Conditions to use openpilot."
+msgstr "Az openpilot használatához el kell fogadnia a Felhasználási feltételeket."
+
 #: openpilot/selfdrive/ui/layouts/onboarding.py
 msgid "You must accept the Terms and Conditions in order to use openpilot."
 msgstr "Az openpilot használatához el kell fogadnia a Felhasználási feltételeket."
@@ -1359,6 +1554,58 @@ msgstr "Az openpilot használatához el kell fogadnia a Felhasználási feltéte
 msgid "You must accept the Terms and Conditions to use openpilot. Read the latest terms at https://comma.ai/terms before continuing."
 msgstr "Az openpilot használatához el kell fogadnia a Felhasználási feltételeket. Folytatás előtt olvassa el a legfrissebb feltételeket: https://comma.ai/terms"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"accept\n"
+"terms"
+msgstr ""
+"feltételek\n"
+"elfogadása"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "account"
+msgstr "fiók"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "active"
+msgstr "aktív"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "add profile"
+msgstr "profil hozzáadása"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "aggressive"
+msgstr "sportos"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "allow data uploading"
+msgstr "adatfeltöltés engedélyezése"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "alpha longitudinal"
+msgstr "alfa hosszirányú vezérlés"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "always-on driver monitor"
+msgstr "folyamatos sofőrfigyelés"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "apn settings"
+msgstr "APN-beállítások"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "back"
+msgstr "vissza"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "branch"
+msgstr "ág"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "cabin camera data"
+msgstr "belső kamera adatai"
+
 #: openpilot/selfdrive/ui/mici/layouts/onboarding.py
 #: openpilot/selfdrive/ui/mici/layouts/settings/network/esim_ui.py
 #: openpilot/selfdrive/ui/mici/onroad/cabin_camera_dialog.py
@@ -1366,37 +1613,218 @@ msgstr "Az openpilot használatához el kell fogadnia a Felhasználási feltéte
 msgid "camera starting"
 msgstr "kamera indul"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "cellular metered"
+msgstr "mobilnet forgalomkorlátos"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "check for update"
+msgstr "frissítés keresése"
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "checking..."
 msgstr "ellenőrzés..."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"claim\n"
+"prime trial"
+msgstr ""
+"prime\n"
+"próbaidőszak"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "claim prime trial"
+msgstr "prime próbaidőszak"
 
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "comma prime"
 msgstr "comma prime"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "connect"
+msgstr "csatlakozás"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "connect lets you review recent driving footage and bookmark events."
+msgstr "A connectben visszanézheti a legutóbbi felvételeket, és könyvjelzőt tehet az eseményekhez."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "connected"
+msgstr "csatlakozva"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "connecting..."
+msgstr "csatlakozás..."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"decline &\n"
+"uninstall"
+msgstr ""
+"elutasítás és\n"
+"eltávolítás"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
 #: openpilot/system/ui/widgets/network.py
 msgid "default"
 msgstr "alapértelmezett"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "developer"
+msgstr "fejlesztő"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "device"
+msgstr "eszköz"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "device ID"
+msgstr "eszközazonosító"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "do you want to share video data for training?"
+msgstr "megosztja a videóadatokat a tanításhoz?"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "down"
 msgstr "lefelé"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "download update"
+msgstr "frissítés letöltése"
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "downloading..."
 msgstr "letöltés..."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"driver\n"
+"camera preview"
+msgstr ""
+"belső kamera\n"
+"előnézet"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"driver monitoring\n"
+"check"
+msgstr ""
+"sofőrfigyelés\n"
+"ellenőrzése"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "edit"
+msgstr "módosít"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enable ADB"
+msgstr "ADB engedélyezése"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enable SSH"
+msgstr "SSH engedélyezése"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"enable alpha\n"
+"longitudinal"
+msgstr ""
+"alfa hosszirányú\n"
+"vezérlés"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enable openpilot"
+msgstr "openpilot bekapcsolása"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enable roaming"
+msgstr "roaming engedélyezése"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enable tethering"
+msgstr "hotspot bekapcsolása"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enabling alpha longitudinal"
+msgstr "alfa hosszirányú vezérlés bekapcsolása"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enter APN..."
+msgstr "APN..."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enter GitHub username..."
+msgstr "GitHub-felhasználónév..."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enter a nickname..."
+msgstr "becenév..."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enter password..."
+msgstr "jelszó..."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "esim error"
+msgstr "eSIM-hiba"
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "failed to check for update"
 msgstr "nem sikerült ellenőrizni a frissítést"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "failed to update"
+msgstr "sikertelen frissítés"
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "finalizing update..."
 msgstr "frissítés véglegesítése..."
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "finish setup"
+msgstr "még egy lépés"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "firehose"
+msgstr "adatgyűjtés"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "following distance"
+msgstr "követési távolság"
+
 #: openpilot/system/ui/widgets/network.py
 msgid "for \"{}\""
 msgstr "ehhez: „{}”"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "forgetting..."
+msgstr "elfelejtés..."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "hold QR code to camera"
+msgstr "tartsa a QR-kódot a kamera elé"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "initial max speed"
+msgstr "kezdeti max. sebesség"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "install now"
+msgstr "telepítés most"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "installing profile"
+msgstr "profil telepítése"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"joystick debug\n"
+"mode"
+msgstr ""
+"joystick hibakereső\n"
+"mód"
 
 #: openpilot/selfdrive/ui/layouts/settings/initial_cruise_speed.py
 #: openpilot/selfdrive/ui/mici/onroad/hud_renderer.py
@@ -1408,6 +1836,14 @@ msgstr "km/h"
 msgid "kph"
 msgstr "km/h"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "lane departure warnings"
+msgstr "sávelhagyásra figyelmeztetés"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "lateral maneuver mode"
+msgstr "oldalirányú manőver mód"
+
 #: openpilot/system/ui/widgets/network.py
 msgid "leave blank for automatic configuration"
 msgstr "hagyja üresen az automatikus beállításhoz"
@@ -1415,6 +1851,10 @@ msgstr "hagyja üresen az automatikus beállításhoz"
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "left"
 msgstr "balra"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "loading..."
+msgstr "betöltés..."
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "locationd Permanent Error"
@@ -1424,6 +1864,27 @@ msgstr "Helymeghatározási hiba (locationd)"
 msgid "locationd Temporary Error"
 msgstr "Átmeneti helymeghatározási hiba (locationd)"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "longitudinal maneuver mode"
+msgstr "hosszirányú manőver mód"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "looking for driver"
+msgstr "sofőr keresése"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"make sure comma\n"
+"four can see your face"
+msgstr ""
+"a comma four lássa\n"
+"az arcát"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "manage prime"
+msgstr "prime kezelése"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
 #: openpilot/system/ui/widgets/network.py
 msgid "metered"
 msgstr "korlátos"
@@ -1435,17 +1896,65 @@ msgstr "korlátos"
 msgid "mph"
 msgstr "mph"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "navigation (alpha)"
+msgstr "navigáció (alfa)"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "network"
+msgstr "hálózat"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "network usage"
+msgstr "hálózathasználat"
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "never"
 msgstr "soha"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "next"
+msgstr "tovább"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "nickname"
+msgstr "becenév"
 
 #: openpilot/selfdrive/ui/mici/layouts/offroad_alerts.py
 msgid "no alerts"
 msgstr "nincs figyelmeztetés"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "no sim"
+msgstr "nincs SIM"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "no, don't upload"
+msgstr "nem, ne töltsön fel"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "not an LPA code"
+msgstr "ez nem LPA-kód"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "not connected"
+msgstr "nincs csatlakozva"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "not in range"
+msgstr "nincs hatótávon belül"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "not subscribed"
+msgstr "nincs előfizetés"
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "now"
 msgstr "most"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "obtaining IP..."
+msgstr "IP-cím lekérése..."
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "openpilot Canceled"
@@ -1459,6 +1968,14 @@ msgstr "openpilot hosszirányú vezérlés (alfa)"
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "openpilot Unavailable"
 msgstr "Az openpilot nem érhető el"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"openpilot can't start\n"
+"check alerts"
+msgstr ""
+"az openpilot nem indul\n"
+"nézze meg az értesítéseket"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "openpilot is continuously calibrating, resetting is rarely required. Resetting calibration will restart openpilot if the car is powered on."
@@ -1479,9 +1996,25 @@ msgstr ""
 msgid "openpilot requires the device to be mounted within 4° left or right and within 5° up or 9° down."
 msgstr "Az openpilot működéséhez az eszköz legfeljebb 4°-kal térhet el balra vagy jobbra, 5°-kal felfelé és 9°-kal lefelé."
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "openpilot uses the cabin camera to check if the driver is distracted."
+msgstr "Az openpilot a belső kamerával figyeli, hogy a sofőr figyel-e az útra."
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "openpilot will disengage"
 msgstr "Az openpilot kikapcsol"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "or go to https://comma.ai/terms"
+msgstr "vagy nyissa meg: https://comma.ai/terms"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "pair"
+msgstr "párosítás"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "pair to connect"
+msgstr "párosítás a connecthez"
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid ""
@@ -1491,6 +2024,14 @@ msgstr ""
 "párosítsa a comma connecttel\n"
 "a megtekintéshez"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "paired"
+msgstr "párosítva"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "pairing device"
+msgstr "eszköz párosítása"
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "paramsd Permanent Error"
 msgstr "Paraméterbecslési hiba (paramsd)"
@@ -1499,25 +2040,234 @@ msgstr "Paraméterbecslési hiba (paramsd)"
 msgid "paramsd Temporary Error"
 msgstr "Átmeneti paraméterbecslési hiba (paramsd)"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "please wait..."
+msgstr "kérem, várjon..."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "power off"
+msgstr "kikapcsolás"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "prime adds 24/7 LTE to device and 1 year of cloud storage in connect."
+msgstr "A prime folyamatos LTE-kapcsolatot és 1 év felhőtárhelyet ad a connectben."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "prime also includes commacare extended device warranty."
+msgstr "A prime a commacare kiterjesztett garanciát is tartalmazza."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "prime lets you view live video and GPS location remotely in connect."
+msgstr "A prime-mal távolról nézheti az élő videót és a GPS-helyzetet a connectben."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "reboot"
+msgstr "újraindítás"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "record & upload cabin camera"
+msgstr "belső kamera rögzítése és feltöltése"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "record & upload mic audio"
+msgstr "mikrofonhang rögzítése és feltöltése"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "regulatory info"
+msgstr "hatósági információk"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "relaxed"
+msgstr "laza"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "reset"
+msgstr "visszaállítás"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "reset calibration"
+msgstr "kalibráció visszaállítása"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"review\n"
+"training guide"
+msgstr ""
+"bevezető\n"
+"újranézése"
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "right"
 msgstr "jobbra"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "scan QR code"
+msgstr "QR-kód beolvasása"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "scan QR code or visit connect.comma.ai"
+msgstr "olvassa be a QR-kódot vagy nyissa meg: connect.comma.ai"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "scan to claim trial"
+msgstr "olvassa be a próbaidőszakhoz"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"scan to manage\n"
+"prime status"
+msgstr ""
+"olvassa be a prime\n"
+"állapot kezeléséhez"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"scan to open\n"
+"device prime settings"
+msgstr ""
+"olvassa be a prime\n"
+"beállításokhoz"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "scroll for details"
+msgstr "görgessen a részletekért"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "scroll to continue"
+msgstr "görgessen a folytatáshoz"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "searching for networks"
+msgstr "hálózatok keresése"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "serial"
+msgstr "sorozatszám"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "slide to delete"
+msgstr "húzza el a törléshez"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "slide to forget"
+msgstr "húzza el az elfelejtéshez"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "software"
+msgstr "szoftver"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "standard"
+msgstr "normál"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"start the car to\n"
+"use openpilot"
+msgstr ""
+"az openpilothoz\n"
+"indítsa el az autót"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "starting"
+msgstr "indul"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "starting..."
+msgstr "indul..."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "status"
+msgstr "állapot"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "swipe for QR code"
+msgstr "húzza el a QR-kódért"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "switch"
+msgstr "váltás"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "system booting"
+msgstr "a rendszer indul"
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "take control"
 msgstr "vegye át az irányítást"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "target branch"
+msgstr "cél ág"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"terms &\n"
+"conditions"
+msgstr ""
+"felhasználási\n"
+"feltételek"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"terms and\n"
+"conditions"
+msgstr ""
+"felhasználási\n"
+"feltételek"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "tethering"
+msgstr "hotspot"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "tethering password"
+msgstr "hotspot-jelszó"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "toggles"
+msgstr "kapcsolók"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"try prime for\n"
+"30 days"
+msgstr ""
+"prime 30 napig\n"
+"ingyen"
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "turn exceeds limit"
 msgstr "túl éles kanyar"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "ui debug mode"
+msgstr "felület hibakereső mód"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "uninstall"
+msgstr "eltávolítás"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "uninstall openpilot"
+msgstr "openpilot eltávolítása"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
 #: openpilot/system/ui/widgets/network.py
 msgid "unmetered"
 msgstr "korlátlan"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "unsupported"
+msgstr "nem támogatott"
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "up"
 msgstr "felfelé"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "up to date"
+msgstr "naprakész"
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "up to date, last checked never"
@@ -1530,6 +2280,46 @@ msgstr "naprakész, utolsó ellenőrzés: {}"
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "update available"
 msgstr "frissítés elérhető"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"updater failed\n"
+"to respond"
+msgstr ""
+"a frissítő\n"
+"nem válaszol"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"upgrade\n"
+"to prime"
+msgstr ""
+"váltás\n"
+"prime-ra"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "upgrade to prime"
+msgstr "váltás prime-ra"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "use metric units"
+msgstr "metrikus mértékegységek"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "version"
+msgstr "verzió"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "what is openpilot?"
+msgstr "mi az openpilot?"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "wi-fi"
+msgstr "wi-fi"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "wrong password"
+msgstr "hibás jelszó"
 
 #: openpilot/selfdrive/ui/layouts/home.py
 msgid "{} ALERT"

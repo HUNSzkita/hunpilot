@@ -24,6 +24,14 @@ msgstr "--"
 msgid "1 year of drive storage"
 msgstr "1 yıl sürüş depolaması"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "1. openpilot is a driver assistance system."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "2. You must pay attention at all times."
+msgstr ""
+
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "24/7 LTE connectivity"
 msgstr "7/24 LTE bağlantısı"
@@ -32,9 +40,17 @@ msgstr "7/24 LTE bağlantısı"
 msgid "2G"
 msgstr "2G"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "3. You must be ready to take over at any time."
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "3G"
 msgstr "3G"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "4. You are fully responsible for driving the car."
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "5G"
@@ -76,6 +92,10 @@ msgstr "APN Ayarı"
 msgid "Abnormal tire stiffness"
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Access the device remotely using your SSH keys."
+msgstr ""
+
 #: openpilot/selfdrive/ui/widgets/offroad_alerts.py
 msgid "Acknowledge Excessive Actuation"
 msgstr "Aşırı Müdahaleyi Onayla"
@@ -95,6 +115,10 @@ msgstr "Agresif"
 #: openpilot/selfdrive/ui/layouts/onboarding.py
 msgid "Agree"
 msgstr "Kabul et"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Allow cellular data roaming."
+msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Always keep hands on wheel and eyes on road"
@@ -305,6 +329,10 @@ msgstr ""
 msgid "Contact comma.ai/support"
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Control the car with a joystick for debugging."
+msgstr ""
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Controls Mismatch"
 msgstr ""
@@ -505,8 +533,18 @@ msgstr "openpilot devrede değilken bile sürücü izlemesini etkinleştir."
 msgid "Enable openpilot"
 msgstr "openpilot'u etkinleştir"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"Enable to use openpilot driver assistance.\n"
+"Disable to use your car's stock driver assistance."
+msgstr ""
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Enable your car's LKAS to engage"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Enabling this will switch to openpilot longitudinal control."
 msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
@@ -632,6 +670,10 @@ msgstr ""
 msgid "Go to https://connect.comma.ai on your phone"
 msgstr "Telefonunuzda https://connect.comma.ai adresine gidin"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Grant SSH access to all public keys in your GitHub settings. Only enter your own username."
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "HIGH"
 msgstr "YÜKSEK"
@@ -655,6 +697,10 @@ msgstr "YÜKLE"
 #: openpilot/system/ui/widgets/network.py
 msgid "IP Address"
 msgstr "IP Adresi"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "If it does not have a clear view of the driver, unplug and remount before continuing."
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Initial Max Speed"
@@ -705,6 +751,10 @@ msgstr ""
 msgid "Lateral Maneuver Mode"
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Loading..."
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Longitudinal Maneuver Mode"
@@ -731,6 +781,13 @@ msgstr "MAKS"
 msgid "MPH"
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"Max speed when engaging openpilot.\n"
+"If you are already driving faster, your current speed is used.\n"
+"Resume restores the previous max speed."
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Max speed when engaging openpilot. If you are already driving faster, your current speed is used. Resume restores the previous max speed. Changes apply the next time you engage."
 msgstr ""
@@ -739,8 +796,20 @@ msgstr ""
 msgid "Maximize your training data uploads to improve openpilot's driving models."
 msgstr "openpilot'un sürüş modellerini iyileştirmek için eğitim veri yüklemelerinizi en üst düzeye çıkarın."
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Metered prevents large uploads on this Wi-Fi connection. Default uses the network's detected setting."
+msgstr ""
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Model uncertain at this speed"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Monitor the driver even when openpilot is not engaged."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Mount the device within 4° left or right and 5° up or 9° down. openpilot calibrates continuously; resetting is rarely needed. Resetting clears learned calibration."
 msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
@@ -754,6 +823,10 @@ msgstr "HAYIR"
 #: openpilot/selfdrive/ui/layouts/settings/settings.py
 msgid "Network"
 msgstr "Ağ"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Next, we'll check if comma four can detect the driver properly."
+msgstr ""
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py
 msgid "No SSH keys found for user '{}'"
@@ -771,6 +844,10 @@ msgstr ""
 msgid "Nope, just drive as you normally would."
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Not set"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "OFFLINE"
 msgstr "ÇEVRİMDIŞI"
@@ -783,6 +860,14 @@ msgstr "OK"
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "ONLINE"
 msgstr "ÇEVRİMİÇİ"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Offline"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "On this car, openpilot defaults to the stock system's built-in ACC."
+msgstr ""
 
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Open"
@@ -849,6 +934,10 @@ msgstr "İlk eşleştirmeyi tamamlamak için lütfen Wi‑Fi'a bağlanın"
 msgid "Please connect to Wi-Fi to complete initial pairing."
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Please connect to Wi-Fi to fetch your key."
+msgstr ""
+
 #: openpilot/selfdrive/ui/mici/layouts/settings/software.py
 msgid "Please connect to Wi-Fi to update."
 msgstr ""
@@ -885,6 +974,14 @@ msgstr "Ölçülü bir Wi‑Fi bağlantısındayken büyük veri yüklemelerini 
 msgid "Prevent large data uploads when on a metered cellular connection"
 msgstr "Ölçülü bir hücresel bağlantıdayken büyük veri yüklemelerini engelle"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Prevent large uploads over the cellular connection."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Preview the cabin camera to check driver monitoring visibility. The vehicle must be off."
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Preview the cabin camera to ensure that driver monitoring has good visibility. (vehicle must be off)"
 msgstr ""
@@ -893,6 +990,7 @@ msgstr ""
 msgid "Process Not Running"
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "QR Code Error"
 msgstr "QR Kod Hatası"
@@ -953,6 +1051,12 @@ msgstr "Mikrofon Sesini Kaydet ve Yükle"
 msgid "Record and store microphone audio while driving. The audio will be included in the dashcam video in comma connect."
 msgstr "Sürüş sırasında mikrofon sesini kaydedip saklayın. Ses, comma connect'teki ön kamera videosuna dahil edilecektir."
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"Record microphone audio while driving.\n"
+"Audio is included in dashcam videos in comma connect."
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Regulatory"
 msgstr "Mevzuat"
@@ -979,6 +1083,14 @@ msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Remount Device (Pitch: {}°, Yaw: {}°)"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Remount if your face is blocked, or driver monitoring has difficulty tracking your face."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Remove openpilot from this device."
 msgstr ""
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py
@@ -1029,6 +1141,14 @@ msgstr "openpilot'un kurallarını, özelliklerini ve sınırlamalarını gözde
 msgid "Risk of Collision"
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Run lateral maneuvers for testing steering control."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Run longitudinal maneuvers for testing gas and brake control."
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "SELECT"
 msgstr "SEÇ"
@@ -1036,6 +1156,10 @@ msgstr "SEÇ"
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "SSH Keys"
 msgstr "SSH Anahtarları"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "SSH keys"
+msgstr ""
 
 #: openpilot/system/ui/widgets/network.py
 msgid "Scanning Wi-Fi networks..."
@@ -1061,6 +1185,10 @@ msgstr "Bir dal seçin"
 msgid "Select a language"
 msgstr "Bir dil seçin"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Select the software branch to download on the next update check."
+msgstr ""
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Selfdrive Process Lagging: Reboot Your Device"
 msgstr ""
@@ -1072,6 +1200,22 @@ msgstr ""
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Serial"
 msgstr "Seri"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Set the access point name required by your cellular carrier. Leave blank for automatic configuration."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Share the device's internet connection through a Wi-Fi hotspot."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Sharing your data with comma helps improve openpilot for everyone."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Show touch locations and the UI frame rate."
+msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Slow down to engage"
@@ -1100,6 +1244,14 @@ msgstr ""
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Standard"
 msgstr "Standart"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"Standard is recommended.\n"
+"Aggressive follows closer, with firmer gas and braking.\n"
+"Relaxed leaves more space.\n"
+"Use the steering wheel distance button on supported cars."
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Standard is recommended. In aggressive mode, openpilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode openpilot will stay further away from lead cars. On supported cars, you can cycle through these settings with your steering wheel distance button."
@@ -1226,6 +1378,10 @@ msgstr ""
 msgid "Turn Exceeds Steering Limit"
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Turn-by-turn navigation with a route map. Set a destination from comma connect."
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "UI Debug Mode"
 msgstr "Arayüz Hata Ayıklama Modu"
@@ -1258,13 +1414,25 @@ msgstr "Güncellemeler yalnızca araç kapalıyken indirilir."
 msgid "Upgrade Now"
 msgstr "Şimdi Yükselt"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Upload cabin camera data to help improve driver monitoring."
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Upload data from the cabin camera and help improve the driver monitoring algorithm."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Use Android Debug Bridge (ADB) over USB or the network."
 msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Use Metric System"
 msgstr "Metrik Sistemi Kullan"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "Use alpha openpilot longitudinal control instead of stock ACC. This may disable Automatic Emergency Braking (AEB)."
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Use the openpilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature."
@@ -1294,9 +1462,19 @@ msgstr ""
 msgid "WARNING: This branch is not tested"
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "WARNING: alpha longitudinal control may disable Automatic Emergency Braking (AEB)"
+msgstr ""
+
 #: openpilot/selfdrive/ui/onroad/alert_renderer.py
 msgid "Waiting to start"
 msgstr "Başlatma bekleniyor"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"Warn when you drift across a detected lane line.\n"
+"Only above 31 mph (50 km/h), with no turn signal."
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "Warning: This grants SSH access to all public keys in your GitHub settings. Never enter a GitHub username other than your own. A comma employee will NEVER ask you to add their GitHub username."
@@ -1330,6 +1508,10 @@ msgstr "Yanlış şifre"
 msgid "Yes, only upstream openpilot (and particular forks) are able to be used for training."
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "You must accept the Terms & Conditions to use openpilot."
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/onboarding.py
 msgid "You must accept the Terms and Conditions in order to use openpilot."
 msgstr "openpilot'u kullanmak için Şartlar ve Koşulları kabul etmelisiniz."
@@ -1338,6 +1520,56 @@ msgstr "openpilot'u kullanmak için Şartlar ve Koşulları kabul etmelisiniz."
 msgid "You must accept the Terms and Conditions to use openpilot. Read the latest terms at https://comma.ai/terms before continuing."
 msgstr "openpilot'u kullanmak için Şartlar ve Koşulları kabul etmelisiniz. Devam etmeden önce en güncel şartları https://comma.ai/terms adresinde okuyun."
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"accept\n"
+"terms"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "account"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "active"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "add profile"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "aggressive"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "allow data uploading"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "alpha longitudinal"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "always-on driver monitor"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "apn settings"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "back"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "branch"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "cabin camera data"
+msgstr ""
+
 #: openpilot/selfdrive/ui/mici/layouts/onboarding.py
 #: openpilot/selfdrive/ui/mici/layouts/settings/network/esim_ui.py
 #: openpilot/selfdrive/ui/mici/onroad/cabin_camera_dialog.py
@@ -1345,37 +1577,206 @@ msgstr "openpilot'u kullanmak için Şartlar ve Koşulları kabul etmelisiniz. D
 msgid "camera starting"
 msgstr "kamera başlatılıyor"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "cellular metered"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "check for update"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "checking..."
 msgstr "kontrol ediliyor..."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"claim\n"
+"prime trial"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "claim prime trial"
+msgstr ""
 
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "comma prime"
 msgstr "comma prime"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "connect"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "connect lets you review recent driving footage and bookmark events."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "connected"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "connecting..."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"decline &\n"
+"uninstall"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
 #: openpilot/system/ui/widgets/network.py
 msgid "default"
 msgstr "varsayılan"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "developer"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "device"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "device ID"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "do you want to share video data for training?"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "down"
 msgstr "aşağı"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "download update"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "downloading..."
 msgstr "indiriliyor..."
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"driver\n"
+"camera preview"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"driver monitoring\n"
+"check"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "edit"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enable ADB"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enable SSH"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"enable alpha\n"
+"longitudinal"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enable openpilot"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enable roaming"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enable tethering"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enabling alpha longitudinal"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enter APN..."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enter GitHub username..."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enter a nickname..."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "enter password..."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "esim error"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "failed to check for update"
 msgstr "güncelleme kontrolü başarısız"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "failed to update"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "finalizing update..."
 msgstr "güncelleme tamamlanıyor..."
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "finish setup"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "firehose"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "following distance"
+msgstr ""
+
 #: openpilot/system/ui/widgets/network.py
 msgid "for \"{}\""
 msgstr "\"{}\" için"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "forgetting..."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "hold QR code to camera"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "initial max speed"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "install now"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "installing profile"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"joystick debug\n"
+"mode"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/initial_cruise_speed.py
 #: openpilot/selfdrive/ui/mici/onroad/hud_renderer.py
@@ -1387,6 +1788,14 @@ msgstr "km/h"
 msgid "kph"
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "lane departure warnings"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "lateral maneuver mode"
+msgstr ""
+
 #: openpilot/system/ui/widgets/network.py
 msgid "leave blank for automatic configuration"
 msgstr "otomatik yapılandırma için boş bırakın"
@@ -1394,6 +1803,10 @@ msgstr "otomatik yapılandırma için boş bırakın"
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "left"
 msgstr "sol"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "loading..."
+msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "locationd Permanent Error"
@@ -1403,6 +1816,25 @@ msgstr ""
 msgid "locationd Temporary Error"
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "longitudinal maneuver mode"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "looking for driver"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"make sure comma\n"
+"four can see your face"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "manage prime"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
 #: openpilot/system/ui/widgets/network.py
 msgid "metered"
 msgstr "ölçülü"
@@ -1414,17 +1846,65 @@ msgstr "ölçülü"
 msgid "mph"
 msgstr "mph"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "navigation (alpha)"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "network"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "network usage"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "never"
 msgstr "asla"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "next"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "nickname"
+msgstr ""
 
 #: openpilot/selfdrive/ui/mici/layouts/offroad_alerts.py
 msgid "no alerts"
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "no sim"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "no, don't upload"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "not an LPA code"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "not connected"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "not in range"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "not subscribed"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "now"
 msgstr "şimdi"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "obtaining IP..."
+msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "openpilot Canceled"
@@ -1438,6 +1918,12 @@ msgstr "openpilot Boylamsal Kontrol (Alfa)"
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "openpilot Unavailable"
 msgstr "openpilot Kullanılamıyor"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"openpilot can't start\n"
+"check alerts"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "openpilot is continuously calibrating, resetting is rarely required. Resetting calibration will restart openpilot if the car is powered on."
@@ -1455,14 +1941,38 @@ msgstr ""
 msgid "openpilot requires the device to be mounted within 4° left or right and within 5° up or 9° down."
 msgstr "openpilot, cihazın sağa/sola 4° ve yukarı 5° veya aşağı 9° içinde monte edilmesini gerektirir."
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "openpilot uses the cabin camera to check if the driver is distracted."
+msgstr ""
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "openpilot will disengage"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "or go to https://comma.ai/terms"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "pair"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "pair to connect"
 msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid ""
 "pair to connect\n"
 "to view"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "paired"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "pairing device"
 msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
@@ -1473,25 +1983,220 @@ msgstr ""
 msgid "paramsd Temporary Error"
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "please wait..."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "power off"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "prime adds 24/7 LTE to device and 1 year of cloud storage in connect."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "prime also includes commacare extended device warranty."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "prime lets you view live video and GPS location remotely in connect."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "reboot"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "record & upload cabin camera"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "record & upload mic audio"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "regulatory info"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "relaxed"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "reset"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "reset calibration"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"review\n"
+"training guide"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "right"
 msgstr "sağ"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "scan QR code"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "scan QR code or visit connect.comma.ai"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "scan to claim trial"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"scan to manage\n"
+"prime status"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"scan to open\n"
+"device prime settings"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "scroll for details"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "scroll to continue"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "searching for networks"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "serial"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "slide to delete"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "slide to forget"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "software"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "standard"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"start the car to\n"
+"use openpilot"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "starting"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "starting..."
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "status"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "swipe for QR code"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "switch"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "system booting"
+msgstr ""
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "take control"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "target branch"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"terms &\n"
+"conditions"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"terms and\n"
+"conditions"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "tethering"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "tethering password"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "toggles"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"try prime for\n"
+"30 days"
 msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "turn exceeds limit"
 msgstr ""
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "ui debug mode"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "uninstall"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "uninstall openpilot"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
 #: openpilot/system/ui/widgets/network.py
 msgid "unmetered"
 msgstr "ölçüsüz"
 
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "unsupported"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "up"
 msgstr "yukarı"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "up to date"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "up to date, last checked never"
@@ -1504,6 +2209,42 @@ msgstr "güncel, son kontrol {}"
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "update available"
 msgstr "güncelleme mevcut"
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"updater failed\n"
+"to respond"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid ""
+"upgrade\n"
+"to prime"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "upgrade to prime"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "use metric units"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "version"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "what is openpilot?"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "wi-fi"
+msgstr ""
+
+#: openpilot/selfdrive/ui/mici/hunpilot_strings.py
+msgid "wrong password"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/home.py
 msgid "{} ALERT"
