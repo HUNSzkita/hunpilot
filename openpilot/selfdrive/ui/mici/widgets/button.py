@@ -7,6 +7,8 @@ from openpilot.system.ui.widgets import Widget
 from openpilot.system.ui.widgets.label import UnifiedLabel
 from openpilot.system.ui.widgets.scroller import DO_ZOOM
 from openpilot.system.ui.lib.application import gui_app, FontWeight, MousePos, TextAlignmentVertical
+from openpilot.system.ui.lib.multilang import tr
+from openpilot.system.ui.lib.text_measure import measure_text_cached
 from openpilot.common.filter_simple import BounceFilter
 
 if TYPE_CHECKING:
@@ -193,10 +195,16 @@ class BigButton(BaseButton):
     return int(self._rect.width - self.LABEL_HORIZONTAL_PADDING * 2)
 
   def _get_label_font_size(self):
-    if len(self.text) <= 18:
-      return 48
-    else:
-      return 42
+    text = tr(self.text)
+    size = 48 if len(text) <= 18 else 42
+    # HunPilot: shrink the title so its longest (translated) word fits on one line instead of breaking mid-word
+    width = self._title_width_hint() * 0.95
+    words = text.split()
+    if words and width > 0:
+      widest = max(measure_text_cached(gui_app.font(FontWeight.BOLD), w, size).x for w in words)
+      if widest > width:
+        size = max(28, int(size * width / widest))
+    return size
 
   def _update_label_layout(self):
     self._label.set_font_size(self._get_label_font_size())
