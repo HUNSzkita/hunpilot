@@ -219,6 +219,72 @@ msgstr ""
 msgid "No SSH keys found for user '{}'"
 msgstr ""
 
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Device temperature too high. System cooling down before starting. Current internal component temperature: %1"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Immediately connect to the internet to check for updates. If you do not connect to the internet, openpilot won't engage in %1"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Connect to internet to check for updates. openpilot won't automatically start until it connects to internet to check for updates."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid ""
+"Unable to download updates\n"
+"%1"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut detected! Switch to the release-chestnut branch to use chestnut-class models."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut model error. Restart the car to retry."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut not detected. Check USB and 12V connections, then restart the car."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut overheated. Ensure good airflow."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut update failed. Check the USB cable."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut USB link is slow. Check the USB cable. The current speed is %1."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Failed to register with comma.ai backend. It will not connect or upload to comma.ai servers, and receives no support from comma.ai. If this is a device purchased at comma.ai/shop, open a ticket at https://comma.ai/support."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "openpilot was unable to identify your car. Your car is either unsupported or its ECUs are not recognized. Please submit a pull request to add the firmware versions to the proper vehicle. Need help? Join discord.comma.ai."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "openpilot detected a change in the device's mounting position. Ensure the device is fully seated in the mount and the mount is firmly secured to the windshield."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Poor visibility detected for driver monitoring. Ensure the device has a clear view of the driver. This can be checked in the device settings. Extreme lighting conditions and/or unconventional mounting positions may also trigger this alert."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Excessive %1 actuation detected on your last drive. Please contact support at https://comma.ai/support and share your device's Dongle ID for troubleshooting."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Finish setup. Pair your device with comma connect to view recent drives and bookmarked routes."
+msgstr ""
+
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "Upgrade Now"
 msgstr ""

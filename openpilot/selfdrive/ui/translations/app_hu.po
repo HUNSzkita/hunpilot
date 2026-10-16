@@ -309,6 +309,30 @@ msgstr "A beállítás módosítása újraindítja az openpilotot, ha az autó b
 msgid "Check tires, pressure, or alignment (Factor: {})"
 msgstr "Ellenőrizze a gumikat, a nyomást vagy a futóművet (tényező: {})"
 
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut USB link is slow. Check the USB cable. The current speed is %1."
+msgstr "Lassú a Chestnut USB-kapcsolata. Ellenőrizze az USB-kábelt. Jelenlegi sebesség: %1."
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut detected! Switch to the release-chestnut branch to use chestnut-class models."
+msgstr "Chestnut észlelve! Váltson a release-chestnut ágra a chestnut modellek használatához."
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut model error. Restart the car to retry."
+msgstr "Chestnut modellhiba. Az újrapróbáláshoz indítsa újra az autót."
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut not detected. Check USB and 12V connections, then restart the car."
+msgstr "Chestnut nem található. Ellenőrizze az USB- és a 12 V-os csatlakozást, majd indítsa újra az autót."
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut overheated. Ensure good airflow."
+msgstr "A Chestnut túlmelegedett. Biztosítson jó szellőzést."
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut update failed. Check the USB cable."
+msgstr "A Chestnut frissítése nem sikerült. Ellenőrizze az USB-kábelt."
+
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "Click \"add new device\" and scan the QR code on the right"
 msgstr "Koppintson az „add new device” gombra, és olvassa be a jobb oldali QR-kódot"
@@ -324,6 +348,10 @@ msgstr "Belső kommunikációs hiba"
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Confirm Lane Change"
 msgstr "Erősítse meg a sávváltást"
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Connect to internet to check for updates. openpilot won't automatically start until it connects to internet to check for updates."
+msgstr "Csatlakozzon az internethez a frissítések ellenőrzéséhez. Az openpilot addig nem indul el magától, amíg nem csatlakozik az internethez."
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Contact comma.ai/support"
@@ -396,6 +424,10 @@ msgstr "Az eszközt áthelyezték: újrakalibrálás"
 #: openpilot/selfdrive/ui/mici/layouts/settings/device/device_layout.py
 msgid "Device must be registered with the comma.ai backend to pair."
 msgstr "A párosításhoz az eszközt regisztrálni kell a comma.ai rendszerében."
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Device temperature too high. System cooling down before starting. Current internal component temperature: %1"
+msgstr "Túl magas az eszköz hőmérséklete. A rendszer indulás előtt lehűl. Belső alkatrész jelenlegi hőmérséklete: %1"
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Disable your car's stock LKAS to engage"
@@ -581,6 +613,10 @@ msgstr "Adja meg a GitHub-felhasználónevét"
 msgid "Error"
 msgstr "Hiba"
 
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Excessive %1 actuation detected on your last drive. Please contact support at https://comma.ai/support and share your device's Dongle ID for troubleshooting."
+msgstr "Túlzott beavatkozás (%1) az előző út során. Kérjük, forduljon a támogatáshoz (https://comma.ai/support), és adja meg az eszközazonosítót (Dongle ID)."
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Excessive Actuation"
 msgstr "Túlzott beavatkozás"
@@ -593,6 +629,10 @@ msgstr "ELFELEJTÉS..."
 msgid "Failed to get available branches. Ensure you're connected to the internet and try again."
 msgstr "Nem sikerült lekérni az elérhető ágakat. Ellenőrizze az internetkapcsolatot, és próbálja újra."
 
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Failed to register with comma.ai backend. It will not connect or upload to comma.ai servers, and receives no support from comma.ai. If this is a device purchased at comma.ai/shop, open a ticket at https://comma.ai/support."
+msgstr "Nem sikerült regisztrálni a comma.ai rendszerében. Az eszköz nem csatlakozik és nem tölt fel a comma.ai szervereire, és nem kap támogatást. Ha a comma.ai/shop oldalon vásárolta, nyisson hibajegyet: https://comma.ai/support."
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Fan Malfunction"
 msgstr "Ventilátorhiba"
@@ -600,6 +640,10 @@ msgstr "Ventilátorhiba"
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Finish Setup"
 msgstr "Még egy lépés"
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Finish setup. Pair your device with comma connect to view recent drives and bookmarked routes."
+msgstr "Még egy lépés. Párosítsa az eszközt a comma connecttel, így visszanézheti a legutóbbi utakat és a könyvjelzős szakaszokat."
 
 #: openpilot/selfdrive/ui/layouts/settings/settings.py
 msgid "Firehose"
@@ -720,6 +764,10 @@ msgstr "IP-cím"
 #: openpilot/selfdrive/ui/mici/hunpilot_strings.py
 msgid "If it does not have a clear view of the driver, unplug and remount before continuing."
 msgstr "Ha nem látja jól a sofőrt, húzza ki és rögzítse újra az eszközt, mielőtt továbblép."
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Immediately connect to the internet to check for updates. If you do not connect to the internet, openpilot won't engage in %1"
+msgstr "Azonnal csatlakozzon az internethez a frissítések ellenőrzéséhez. Ha nem csatlakozik, az openpilot ennyi idő múlva nem kapcsol be: %1"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Initial Max Speed"
@@ -963,6 +1011,10 @@ msgstr "A kulcs lekéréséhez csatlakozzon Wi-Fi-hez."
 #: openpilot/selfdrive/ui/mici/layouts/settings/software.py
 msgid "Please connect to Wi-Fi to update."
 msgstr "A frissítéshez csatlakozzon Wi-Fi-hez."
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Poor visibility detected for driver monitoring. Ensure the device has a clear view of the driver. This can be checked in the device settings. Extreme lighting conditions and/or unconventional mounting positions may also trigger this alert."
+msgstr "Rossz rálátás a sofőrre. Ellenőrizze, hogy az eszköz jól látja a sofőrt; ezt az eszköz beállításaiban nézheti meg. Szélsőséges fényviszonyok vagy szokatlan rögzítés is okozhatja."
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Posenet Speed Invalid"
@@ -1425,6 +1477,14 @@ msgstr "ELTÁVOLÍTÁS"
 #: openpilot/selfdrive/ui/layouts/home.py
 msgid "UPDATE"
 msgstr "FRISSÍTÉS"
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid ""
+"Unable to download updates\n"
+"%1"
+msgstr ""
+"Nem sikerült letölteni a frissítéseket\n"
+"%1"
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "Uninstall"
@@ -1977,6 +2037,10 @@ msgstr ""
 "az openpilot nem indul\n"
 "nézze meg az értesítéseket"
 
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "openpilot detected a change in the device's mounting position. Ensure the device is fully seated in the mount and the mount is firmly secured to the windshield."
+msgstr "Az eszköz helyzete megváltozott. Ellenőrizze, hogy az eszköz teljesen a tartóban ül, és a tartó szilárdan rögzül a szélvédőn."
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "openpilot is continuously calibrating, resetting is rarely required. Resetting calibration will restart openpilot if the car is powered on."
 msgstr "Az openpilot folyamatosan kalibrál, visszaállításra ritkán van szükség. A kalibráció visszaállítása újraindítja az openpilotot, ha az autó be van kapcsolva."
@@ -1999,6 +2063,10 @@ msgstr "Az openpilot működéséhez az eszköz legfeljebb 4°-kal térhet el ba
 #: openpilot/selfdrive/ui/mici/hunpilot_strings.py
 msgid "openpilot uses the cabin camera to check if the driver is distracted."
 msgstr "Az openpilot a belső kamerával figyeli, hogy a sofőr figyel-e az útra."
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "openpilot was unable to identify your car. Your car is either unsupported or its ECUs are not recognized. Please submit a pull request to add the firmware versions to the proper vehicle. Need help? Join discord.comma.ai."
+msgstr "Az openpilot nem ismerte fel az autót. Az autó nem támogatott, vagy a vezérlőegységei ismeretlenek. A firmware-verziók hozzáadását pull requesttel kérheti. Segítség: discord.comma.ai."
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "openpilot will disengage"

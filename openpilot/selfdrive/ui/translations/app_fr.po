@@ -309,6 +309,30 @@ msgstr "La modification de ce réglage redémarrera openpilot si la voiture est 
 msgid "Check tires, pressure, or alignment (Factor: {})"
 msgstr ""
 
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut USB link is slow. Check the USB cable. The current speed is %1."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut detected! Switch to the release-chestnut branch to use chestnut-class models."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut model error. Restart the car to retry."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut not detected. Check USB and 12V connections, then restart the car."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut overheated. Ensure good airflow."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Chestnut update failed. Check the USB cable."
+msgstr ""
+
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "Click \"add new device\" and scan the QR code on the right"
 msgstr "Cliquez sur \"add new device\" et scannez le code QR à droite"
@@ -323,6 +347,10 @@ msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Confirm Lane Change"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Connect to internet to check for updates. openpilot won't automatically start until it connects to internet to check for updates."
 msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
@@ -395,6 +423,10 @@ msgstr ""
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/device/device_layout.py
 msgid "Device must be registered with the comma.ai backend to pair."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Device temperature too high. System cooling down before starting. Current internal component temperature: %1"
 msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
@@ -579,6 +611,10 @@ msgstr "Entrez votre nom d'utilisateur GitHub"
 msgid "Error"
 msgstr "Erreur"
 
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Excessive %1 actuation detected on your last drive. Please contact support at https://comma.ai/support and share your device's Dongle ID for troubleshooting."
+msgstr ""
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Excessive Actuation"
 msgstr ""
@@ -591,6 +627,10 @@ msgstr "OUBLIER..."
 msgid "Failed to get available branches. Ensure you're connected to the internet and try again."
 msgstr ""
 
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Failed to register with comma.ai backend. It will not connect or upload to comma.ai servers, and receives no support from comma.ai. If this is a device purchased at comma.ai/shop, open a ticket at https://comma.ai/support."
+msgstr ""
+
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Fan Malfunction"
 msgstr ""
@@ -598,6 +638,10 @@ msgstr ""
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Finish Setup"
 msgstr "Terminer la configuration"
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Finish setup. Pair your device with comma connect to view recent drives and bookmarked routes."
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/settings.py
 msgid "Firehose"
@@ -700,6 +744,10 @@ msgstr "Adresse IP"
 
 #: openpilot/selfdrive/ui/mici/hunpilot_strings.py
 msgid "If it does not have a clear view of the driver, unplug and remount before continuing."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Immediately connect to the internet to check for updates. If you do not connect to the internet, openpilot won't engage in %1"
 msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
@@ -940,6 +988,10 @@ msgstr ""
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/software.py
 msgid "Please connect to Wi-Fi to update."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "Poor visibility detected for driver monitoring. Ensure the device has a clear view of the driver. This can be checked in the device settings. Extreme lighting conditions and/or unconventional mounting positions may also trigger this alert."
 msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
@@ -1393,6 +1445,12 @@ msgstr "DÉSINSTALLER"
 #: openpilot/selfdrive/ui/layouts/home.py
 msgid "UPDATE"
 msgstr "METTRE À JOUR"
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid ""
+"Unable to download updates\n"
+"%1"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "Uninstall"
@@ -1925,6 +1983,10 @@ msgid ""
 "check alerts"
 msgstr ""
 
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "openpilot detected a change in the device's mounting position. Ensure the device is fully seated in the mount and the mount is firmly secured to the windshield."
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "openpilot is continuously calibrating, resetting is rarely required. Resetting calibration will restart openpilot if the car is powered on."
 msgstr ""
@@ -1943,6 +2005,10 @@ msgstr "openpilot exige que l'appareil soit monté à moins de 4° à gauche ou 
 
 #: openpilot/selfdrive/ui/mici/hunpilot_strings.py
 msgid "openpilot uses the cabin camera to check if the driver is distracted."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/hunpilot_offroad_strings.py
+msgid "openpilot was unable to identify your car. Your car is either unsupported or its ECUs are not recognized. Please submit a pull request to add the firmware versions to the proper vehicle. Need help? Join discord.comma.ai."
 msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_translations.py
