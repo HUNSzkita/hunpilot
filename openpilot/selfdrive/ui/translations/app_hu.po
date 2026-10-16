@@ -732,7 +732,7 @@ msgstr "openpilot bekapcsolása"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Disengage on Accelerator Pedal"
-msgstr "Kikapcsolás gázpedálra"
+msgstr "Kikapcsolás gázpedál lenyomásakor"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Enable Lane Departure Warnings"
