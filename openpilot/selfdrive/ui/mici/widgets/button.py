@@ -195,11 +195,15 @@ class BigButton(BaseButton):
     return int(self._rect.width - self.LABEL_HORIZONTAL_PADDING * 2)
 
   def _get_label_font_size(self):
-    text = tr(self.text)
-    size = 48 if len(text) <= 18 else 42
+    if len(self.text) <= 18:
+      return 48
+    else:
+      return 42
+
+  def _fit_label_font_size(self, size: int) -> int:
     # HunPilot: shrink the title so its longest (translated) word fits on one line instead of breaking mid-word
     width = self._title_width_hint() * 0.95
-    words = text.split()
+    words = tr(self.text).split()
     if words and width > 0:
       widest = max(measure_text_cached(gui_app.font(FontWeight.BOLD), w, size).x for w in words)
       if widest > width:
@@ -207,7 +211,7 @@ class BigButton(BaseButton):
     return size
 
   def _update_label_layout(self):
-    self._label.set_font_size(self._get_label_font_size())
+    self._label.set_font_size(self._fit_label_font_size(self._get_label_font_size()))
     if self.value:
       self._label.set_alignment_vertical(TextAlignmentVertical.TOP)
     else:
