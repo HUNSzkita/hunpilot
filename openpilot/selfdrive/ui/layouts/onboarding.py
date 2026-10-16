@@ -6,7 +6,7 @@ from enum import IntEnum
 import pyray as rl
 from openpilot.common.basedir import BASEDIR
 from openpilot.system.ui.lib.application import FontWeight, gui_app, TextAlignment
-from openpilot.system.ui.lib.multilang import tr
+from openpilot.system.ui.lib.multilang import tr, multilang
 from openpilot.system.ui.widgets import Widget
 from openpilot.system.ui.widgets.button import Button, ButtonStyle
 from openpilot.system.ui.widgets.label import Label
@@ -50,9 +50,15 @@ class TrainingGuide(Widget):
     threading.Thread(target=self._preload_thread, daemon=True).start()
 
   def _load_image_paths(self):
-    paths = [fn for fn in os.listdir(os.path.join(BASEDIR, "openpilot/selfdrive/assets/training")) if re.match(r'^step\d*\.png$', fn)]
+    # HunPilot: use translated training images when they exist for the selected language (e.g. training_hu)
+    base = os.path.join(BASEDIR, "openpilot/selfdrive/assets/training")
+    for lang in (multilang.language, multilang.language.split("-")[0]):
+      if lang != "en" and os.path.isdir(f"{base}_{lang}"):
+        base = f"{base}_{lang}"
+        break
+    paths = [fn for fn in os.listdir(base) if re.match(r'^step\d*\.png$', fn)]
     paths = sorted(paths, key=lambda x: int(re.search(r'\d+', x).group()))
-    self._image_paths = [os.path.join(BASEDIR, "openpilot/selfdrive/assets/training", fn) for fn in paths]
+    self._image_paths = [os.path.join(base, fn) for fn in paths]
 
   def _preload_thread(self):
     # PNG loading is slow in raylib, so we preload in a thread and upload to GPU in main thread
