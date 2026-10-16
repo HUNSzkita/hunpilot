@@ -190,6 +190,17 @@ def write_po(path: str | Path, header: POEntry | None, entries: list[POEntry]) -
 
 # ──── String extraction (replaces xgettext) ────
 
+def _const_str(node: ast.AST) -> str | None:
+  """Return the string value of a literal, folding "a" + "b" concatenations."""
+  if isinstance(node, ast.Constant) and isinstance(node.value, str):
+    return node.value
+  if isinstance(node, ast.BinOp) and isinstance(node.op, ast.Add):
+    left, right = _const_str(node.left), _const_str(node.right)
+    if left is not None and right is not None:
+      return left + right
+  return None
+
+
 def extract_strings(files: list[str], basedir: str) -> list[POEntry]:
   """Extract tr/trn/tr_noop calls from Python source files."""
   seen: dict[str, POEntry] = {}
@@ -222,9 +233,9 @@ def extract_strings(files: list[str], basedir: str) -> list[POEntry]:
       is_flagged = name in ('tr', 'trn')
 
       if name in ('tr', 'tr_noop'):
-        if not node.args or not isinstance(node.args[0], ast.Constant) or not isinstance(node.args[0].value, str):
+        msgid = _const_str(node.args[0]) if node.args else None
+        if msgid is None:
           continue
-        msgid = node.args[0].value
         if msgid in seen:
           if ref not in seen[msgid].source_refs:
             seen[msgid].source_refs.append(ref)
