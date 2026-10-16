@@ -64,13 +64,25 @@ msgstr "Az ADB (Android Debug Bridge) lehetővé teszi, hogy USB-n vagy hálóza
 msgid "ADD"
 msgstr "ÚJ"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "AEB: Risk of Collision"
+msgstr "Vészfék: ütközésveszély"
+
 #: openpilot/system/ui/widgets/network.py
 msgid "APN Setting"
 msgstr "APN-beállítás"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Abnormal tire stiffness"
+msgstr "Rendellenes gumimerevség"
+
 #: openpilot/selfdrive/ui/widgets/offroad_alerts.py
 msgid "Acknowledge Excessive Actuation"
 msgstr "Túlzott beavatkozás nyugtázása"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Adaptive Cruise Disabled"
+msgstr "Az adaptív tempomat ki van kapcsolva"
 
 #: openpilot/system/ui/widgets/network.py
 msgid "Advanced"
@@ -84,9 +96,17 @@ msgstr "Sportos"
 msgid "Agree"
 msgstr "Elfogadom"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Always keep hands on wheel and eyes on road"
+msgstr "Kezed mindig a kormányon, szemed az úton"
+
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Always-On Driver Monitoring"
 msgstr "Folyamatos sofőrfigyelés"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Angle offset too high (Offset: {}°)"
+msgstr "Túl nagy szögeltérés (eltérés: {}°)"
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
 msgid "Any fast phone or laptop charger should be fine."
@@ -108,18 +128,54 @@ msgstr "Biztosan visszaállítod a kalibrációt?"
 msgid "Are you sure you want to uninstall?"
 msgstr "Biztosan eltávolítod?"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "BRAKE!"
+msgstr "FÉKEZZ!"
+
 #: openpilot/selfdrive/ui/layouts/onboarding.py
 #: openpilot/system/ui/widgets/network.py
 msgid "Back"
 msgstr "Vissza"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Be ready to take over at any time"
+msgstr "Légy kész bármikor átvenni az irányítást"
+
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "Become a comma prime member at connect.comma.ai"
 msgstr "Legyél comma prime tag: connect.comma.ai"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Big Model Failed"
+msgstr "A nagy modell hibás"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Big Model Failed "
+msgstr "A nagy modell hibás"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Big Model Loading"
+msgstr "A nagy modell töltődik"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Bookmark Saved"
+msgstr "Könyvjelző mentve"
+
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "Bookmark connect.comma.ai to your home screen to use it like an app"
 msgstr "Tedd ki a connect.comma.ai oldalt a kezdőképernyőre, így alkalmazásként használhatod"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "CAN Bus Disconnected"
+msgstr "CAN-busz kapcsolat megszakadt"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "CAN Bus Disconnected: Check Connections"
+msgstr "CAN-busz megszakadt: ellenőrizd a csatlakozókat"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "CAN Bus Disconnected: Likely Faulty Cable"
+msgstr "CAN-busz megszakadt: valószínűleg hibás kábel"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "CHANGE"
@@ -142,12 +198,72 @@ msgstr "CSATLAKOZÁS..."
 msgid "Cabin Camera"
 msgstr "Belső kamera"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Calibrating"
+msgstr "Kalibrálás"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Calibrating: {}%"
+msgstr "Kalibrálás: {}%"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Calibration Incomplete"
+msgstr "A kalibráció nincs kész"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Calibration Invalid"
+msgstr "Hibás kalibráció"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Calibration Invalid: Remount Device & Recalibrate"
+msgstr "Hibás kalibráció: rögzítsd újra az eszközt"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Calibration in Progress"
+msgstr "Kalibrálás folyamatban"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Camera Frame Rate Low"
+msgstr "Alacsony kamera-képkockaszám"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Camera Frame Rate Low: Reboot Your Device"
+msgstr "Alacsony képkockaszám: indítsd újra az eszközt"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Camera Malfunction"
+msgstr "Kamerahiba"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Camera Malfunction: Reboot Your Device"
+msgstr "Kamerahiba: indítsd újra az eszközt"
+
 #: openpilot/system/ui/widgets/confirm_dialog.py
 #: openpilot/system/ui/widgets/keyboard.py
 #: openpilot/system/ui/widgets/network.py
 #: openpilot/system/ui/widgets/option_dialog.py
 msgid "Cancel"
 msgstr "Mégse"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Cancel Pressed"
+msgstr "Mégse gomb megnyomva"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Car Detected in Blindspot"
+msgstr "Autó a holttérben"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Car Not Ready"
+msgstr "Az autó nem áll készen"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Car Unrecognized"
+msgstr "Ismeretlen autó"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Car in Blindspot"
+msgstr "Autó a holttérben"
 
 #: openpilot/system/ui/widgets/network.py
 msgid "Cellular Metered"
@@ -157,9 +273,17 @@ msgstr "Mobilnet forgalomkorlátos"
 msgid "Change Language"
 msgstr "Nyelv módosítása"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Changing Lanes"
+msgstr "Sávváltás"
+
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Changing this setting will restart openpilot if the car is powered on."
 msgstr "A beállítás módosítása újraindítja az openpilotot, ha az autó be van kapcsolva."
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Check tires, pressure, or alignment (Factor: {})"
+msgstr "Ellenőrizd a gumikat, a nyomást vagy a futóművet (tényező: {})"
 
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "Click \"add new device\" and scan the QR code on the right"
@@ -169,13 +293,57 @@ msgstr "Koppints az „add new device” gombra, és olvasd be a jobb oldali QR-
 msgid "Close"
 msgstr "Bezárás"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Communication Issue Between Processes"
+msgstr "Belső kommunikációs hiba"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Confirm Lane Change"
+msgstr "Erősítsd meg a sávváltást"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Contact comma.ai/support"
+msgstr "Segítség: comma.ai/support"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Controls Mismatch"
+msgstr "Vezérlési eltérés"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Cruise Fault: Restart the Car"
+msgstr "Tempomathiba: indítsd újra az autót"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Cruise Fault: Restart the car to engage"
+msgstr "Tempomathiba: a bekapcsoláshoz indítsd újra az autót"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Cruise Is Off"
+msgstr "A tempomat kikapcsolt"
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "Current Version"
 msgstr "Jelenlegi verzió"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "DISENGAGE IMMEDIATELY"
+msgstr "AZONNAL VEDD ÁT!"
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "DOWNLOAD"
 msgstr "LETÖLTÉS"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Dashcam Mode"
+msgstr "Menetrögzítő mód"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Dashcam mode"
+msgstr "Menetrögzítő mód"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Dashcam mode for unsupported car"
+msgstr "Menetrögzítő mód: nem támogatott autó"
 
 #: openpilot/selfdrive/ui/layouts/onboarding.py
 msgid "Decline"
@@ -193,9 +361,17 @@ msgstr "Fejlesztő"
 msgid "Device"
 msgstr "Eszköz"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Device Remount Detected: Recalibrating"
+msgstr "Az eszközt áthelyezték: újrakalibrálás"
+
 #: openpilot/selfdrive/ui/mici/layouts/settings/device/device_layout.py
 msgid "Device must be registered with the comma.ai backend to pair."
 msgstr "A párosításhoz az eszközt regisztrálni kell a comma.ai rendszerében."
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Disable your car's stock LKAS to engage"
+msgstr "A bekapcsoláshoz kapcsold ki az autó gyári sávtartóját"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Disengage on Accelerator Pedal"
@@ -233,9 +409,37 @@ msgstr "Számít, milyen szoftvert futtatok?"
 msgid "Dongle ID"
 msgstr "Eszközazonosító (Dongle ID)"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Door Open"
+msgstr "Nyitott ajtó"
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "Download"
 msgstr "Letöltés"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Drive Above {}"
+msgstr "Haladj {} felett"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Drive above {} to engage"
+msgstr "A bekapcsoláshoz haladj {} felett"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Drive to Calibrate"
+msgstr "Vezess a kalibráláshoz"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Driver Distracted"
+msgstr "A sofőr figyelmetlen"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Driver Unresponsive"
+msgstr "A sofőr nem reagál"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Driving Model Lagging"
+msgstr "A vezetési modell késik"
 
 #: openpilot/system/ui/widgets/network.py
 msgid "EDIT"
@@ -249,6 +453,18 @@ msgstr "HIBA"
 msgid "ETH"
 msgstr "ETH"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Electronic Stability Control Active"
+msgstr "A menetstabilizátor (ESP) beavatkozik"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Electronic Stability Control Disabled"
+msgstr "A menetstabilizátor (ESP) ki van kapcsolva"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Emergency Braking: Risk of Collision"
+msgstr "Vészfékezés: ütközésveszély"
+
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "Enable"
 msgstr "Engedélyezés"
@@ -257,9 +473,17 @@ msgstr "Engedélyezés"
 msgid "Enable ADB"
 msgstr "ADB engedélyezése"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Enable Adaptive Cruise to Engage"
+msgstr "A bekapcsoláshoz kapcsold be az adaptív tempomatot"
+
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Enable Lane Departure Warnings"
 msgstr "Sávelhagyásra figyelmeztetés"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Enable Main Switch to Engage"
+msgstr "A bekapcsoláshoz kapcsold be a tempomat főkapcsolóját"
 
 #: openpilot/system/ui/widgets/network.py
 msgid "Enable Roaming"
@@ -280,6 +504,14 @@ msgstr "A sofőrfigyelés akkor is működik, ha az openpilot nincs bekapcsolva.
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Enable openpilot"
 msgstr "openpilot bekapcsolása"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Enable your car's LKAS to engage"
+msgstr "A bekapcsoláshoz kapcsold be az autó sávtartóját"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Ensure road ahead is clear"
+msgstr "Győződj meg róla, hogy előtted szabad az út"
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/network/esim_ui.py
 msgid "Ensure you're connected to the internet and try again."
@@ -309,6 +541,10 @@ msgstr "Add meg a GitHub-felhasználóneved"
 msgid "Error"
 msgstr "Hiba"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Excessive Actuation"
+msgstr "Túlzott beavatkozás"
+
 #: openpilot/system/ui/widgets/network.py
 msgid "FORGETTING..."
 msgstr "ELFELEJTÉS..."
@@ -316,6 +552,10 @@ msgstr "ELFELEJTÉS..."
 #: openpilot/selfdrive/ui/mici/layouts/settings/software.py
 msgid "Failed to get available branches. Ensure you're connected to the internet and try again."
 msgstr "Nem sikerült lekérni az elérhető ágakat. Ellenőrizd az internetkapcsolatot, és próbáld újra."
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Fan Malfunction"
+msgstr "Ventilátorhiba"
 
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Finish Setup"
@@ -334,6 +574,10 @@ msgstr "Adatgyűjtő mód (Firehose)"
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Following Distance"
 msgstr "Követési távolság"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Following Distance: {}"
+msgstr "Követési távolság: {}"
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
 msgid ""
@@ -393,6 +637,14 @@ msgstr "Gyakori kérdések"
 msgid "GOOD"
 msgstr "JÓ"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Gas: {}%, Steer: {}%"
+msgstr "Gáz: {}%, kormány: {}%"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Gear not D"
+msgstr "Nem D fokozatban"
+
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "Go to https://connect.comma.ai on your phone"
 msgstr "Nyisd meg a telefonodon: https://connect.comma.ai"
@@ -400,6 +652,10 @@ msgstr "Nyisd meg a telefonodon: https://connect.comma.ai"
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "HIGH"
 msgstr "MAGAS"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Harness Relay Malfunction"
+msgstr "Kábelköteg-relé hiba"
 
 #: openpilot/system/ui/widgets/network.py
 msgid "Hidden Network"
@@ -425,13 +681,29 @@ msgstr "Kezdeti max. sebesség"
 msgid "Install Update"
 msgstr "Frissítés telepítése"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Invalid LKAS setting"
+msgstr "Hibás sávtartó-beállítás"
+
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "Joystick Debug Mode"
 msgstr "Joystick hibakereső mód"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Joystick Mode"
+msgstr "Joystick mód"
+
 #: openpilot/selfdrive/ui/mici/layouts/settings/initial_cruise_speed.py
 msgid "KPH"
 msgstr "KM/H"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "LKAS Fault: Restart the Car"
+msgstr "Sávtartó hiba: indítsd újra az autót"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "LKAS Fault: Restart the car to engage"
+msgstr "Sávtartó hiba: a bekapcsoláshoz indítsd újra az autót"
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py
 msgid "LOADING"
@@ -441,13 +713,31 @@ msgstr "BETÖLTÉS"
 msgid "LTE"
 msgstr "LTE"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Lane Departure Detected"
+msgstr "Sávelhagyás"
+
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Lateral Maneuver Mode"
 msgstr "Oldalirányú manőver mód"
 
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Longitudinal Maneuver Mode"
 msgstr "Hosszirányú manőver mód"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Low Communication Rate Between Processes"
+msgstr "Lassú belső kommunikáció"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Low Memory"
+msgstr "Kevés memória"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Low Memory: Reboot Your Device"
+msgstr "Kevés memória: indítsd újra az eszközt"
 
 #: openpilot/selfdrive/ui/mici/onroad/hud_renderer.py
 #: openpilot/selfdrive/ui/onroad/hud_renderer.py
@@ -465,6 +755,10 @@ msgstr "Az openpilot bekapcsolásakor beállított legnagyobb sebesség. Ha már
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Maximize your training data uploads to improve openpilot's driving models."
 msgstr "Tölts fel minél több tanítóadatot, hogy javuljanak az openpilot vezetési modelljei."
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Model uncertain at this speed"
+msgstr "Ennél a sebességnél a modell bizonytalan"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "N/A"
@@ -511,6 +805,10 @@ msgstr "ONLINE"
 msgid "Open"
 msgstr "Megnyitás"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Out of Storage"
+msgstr "Megtelt a tárhely"
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "PAIR"
 msgstr "PÁROSÍTÁS"
@@ -544,6 +842,22 @@ msgstr "Párosítsd az eszközt a comma-fiókoddal"
 msgid "Pair your device with comma connect (connect.comma.ai) and claim your comma prime offer."
 msgstr "Párosítsd az eszközt a comma connecttel (connect.comma.ai), és vedd igénybe a comma prime ajánlatot."
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Parking Brake Engaged"
+msgstr "Be van húzva a kézifék"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Pay Attention"
+msgstr "Figyelj az útra!"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Pay Attention to Engage"
+msgstr "A bekapcsoláshoz figyelj az útra"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Pedal Pressed"
+msgstr "Pedál lenyomva"
+
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Please connect to Wi-Fi to complete initial pairing"
 msgstr "Csatlakozz Wi-Fi-hez az első párosítás befejezéséhez"
@@ -556,9 +870,29 @@ msgstr "Csatlakozz Wi-Fi-hez az első párosítás befejezéséhez."
 msgid "Please connect to Wi-Fi to update."
 msgstr "A frissítéshez csatlakozz Wi-Fi-hez."
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Posenet Speed Invalid"
+msgstr "Hibás sebességbecslés (Posenet)"
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Power Off"
 msgstr "Kikapcsolás"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Press Resume"
+msgstr "Nyomd meg a Folytatás gombot"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Press Resume to Exit Brake Hold"
+msgstr "A fékrögzítés oldásához nyomd meg a Folytatást"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Press Resume to Exit Standstill"
+msgstr "Az induláshoz nyomd meg a Folytatást"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Press Set to Engage"
+msgstr "A bekapcsoláshoz nyomd meg a Set gombot"
 
 #: openpilot/system/ui/widgets/network.py
 msgid "Prevent large data uploads when on a metered Wi-Fi connection"
@@ -571,6 +905,10 @@ msgstr "Nagy adatfeltöltések tiltása forgalomkorlátos mobilneten"
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Preview the cabin camera to ensure that driver monitoring has good visibility. (vehicle must be off)"
 msgstr "Nézd meg a belső kamera képét, hogy a sofőrfigyelés jól lát-e. (az autó legyen kikapcsolva)"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Process Not Running"
+msgstr "Egy folyamat nem fut"
 
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "QR Code Error"
@@ -588,6 +926,14 @@ msgstr "ALAPHELYZET"
 msgid "REVIEW"
 msgstr "ÚJRANÉZ"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Radar Error: Restart the Car"
+msgstr "Radarhiba: indítsd újra az autót"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Radar Temporarily Unavailable"
+msgstr "A radar átmenetileg nem elérhető"
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Reboot"
 msgstr "Újraindítás"
@@ -599,6 +945,14 @@ msgstr "Eszköz újraindítása"
 #: openpilot/selfdrive/ui/widgets/offroad_alerts.py
 msgid "Reboot and Update"
 msgstr "Újraindítás és frissítés"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Reboot your Device"
+msgstr "Indítsd újra az eszközt"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Recalibrating: {}%"
+msgstr "Újrakalibrálás: {}%"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Receive alerts to steer back into the lane when your vehicle drifts over a detected lane line without a turn signal activated while driving over 31 mph (50 km/h)."
@@ -624,6 +978,10 @@ msgstr "Jogi információk"
 msgid "Relaxed"
 msgstr "Laza"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Release Brake to Engage"
+msgstr "A bekapcsoláshoz engedd fel a féket"
+
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "Remote access"
 msgstr "Távoli hozzáférés"
@@ -631,6 +989,14 @@ msgstr "Távoli hozzáférés"
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "Remote snapshots"
 msgstr "Távoli pillanatképek"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Remount Detected: Recalibrating"
+msgstr "Áthelyezés észlelve: újrakalibrálás"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Remount Device (Pitch: {}°, Yaw: {}°)"
+msgstr "Rögzítsd újra az eszközt (bólintás: {}°, elfordulás: {}°)"
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py
 msgid "Request timed out"
@@ -644,6 +1010,34 @@ msgstr "Visszaállítás"
 msgid "Reset Calibration"
 msgstr "Kalibráció visszaállítása"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid ""
+"Restart the car to retry,\n"
+"small model is still available"
+msgstr ""
+"Az újrapróbáláshoz indítsd újra az autót,\n"
+"a kis modell továbbra is elérhető"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Resume Driving Manually"
+msgstr "Vezess tovább kézzel"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Reverse"
+msgstr "Hátramenet"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid ""
+"Reverse\n"
+"Gear"
+msgstr ""
+"Hátra-\n"
+"menet"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Reverse Gear"
+msgstr "Hátramenetben"
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Review Training Guide"
 msgstr "Bevezető újranézése"
@@ -651,6 +1045,10 @@ msgstr "Bevezető újranézése"
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Review the rules, features, and limitations of openpilot"
 msgstr "Az openpilot szabályainak, funkcióinak és korlátainak áttekintése"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Risk of Collision"
+msgstr "Ütközésveszély"
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "SELECT"
@@ -664,6 +1062,14 @@ msgstr "SSH-kulcsok"
 msgid "Scanning Wi-Fi networks..."
 msgstr "Wi-Fi hálózatok keresése..."
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Seatbelt Unlatched"
+msgstr "Kapcsold be a biztonsági övet"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Security Key Not Available"
+msgstr "A biztonsági kulcs nem érhető el"
+
 #: openpilot/system/ui/widgets/option_dialog.py
 msgid "Select"
 msgstr "Kiválasztás"
@@ -676,9 +1082,21 @@ msgstr "Válassz ágat"
 msgid "Select a language"
 msgstr "Válassz nyelvet"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Selfdrive Process Lagging: Reboot Your Device"
+msgstr "Lassú vezérlőfolyamat: indítsd újra az eszközt"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Sensor Data Invalid"
+msgstr "Hibás érzékelőadatok"
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Serial"
 msgstr "Sorozatszám"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Slow down to engage"
+msgstr "A bekapcsoláshoz lassíts"
 
 #: openpilot/selfdrive/ui/widgets/offroad_alerts.py
 msgid "Snooze Update"
@@ -688,6 +1106,18 @@ msgstr "Frissítés elhalasztása"
 msgid "Software"
 msgstr "Szoftver"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Speed Error: {} m/s"
+msgstr "Sebességhiba: {} m/s"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Speed Too High"
+msgstr "Túl nagy sebesség"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Speed too low"
+msgstr "Túl kis sebesség"
+
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Standard"
 msgstr "Normál"
@@ -696,17 +1126,94 @@ msgstr "Normál"
 msgid "Standard is recommended. In aggressive mode, openpilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode openpilot will stay further away from lead cars. On supported cars, you can cycle through these settings with your steering wheel distance button."
 msgstr "A Normál ajánlott. Sportos módban az openpilot közelebb követi az elöl haladó autót, és határozottabban gyorsít és fékez. Laza módban nagyobb távolságot tart. Támogatott autóknál a kormányon lévő távolságállító gombbal is válthatsz a beállítások között."
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steer Assist Unavailable Below {}"
+msgstr "{} alatt nincs kormányzássegítés"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steer Left"
+msgstr "Kormányozz balra"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steer Left to Start Lane Change Once Safe"
+msgstr "A sávváltáshoz kormányozz balra, ha biztonságos"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steer Right"
+msgstr "Kormányozz jobbra"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steer Right to Start Lane Change Once Safe"
+msgstr "A sávváltáshoz kormányozz jobbra, ha biztonságos"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steer ratio mismatch"
+msgstr "Eltérő kormányáttétel"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steering Assist Temporarily Unavailable"
+msgstr "A kormányzássegítés átmenetileg nem elérhető"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steering Pressed"
+msgstr "Kormány megfogva"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steering Temporarily Unavailable"
+msgstr "A kormányzás átmenetileg nem elérhető"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steering misalignment detected"
+msgstr "Kormányszög-eltérés észlelve"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steering rack geometry may be off (Ratio: {})"
+msgstr "A kormánymű geometriája eltérhet (áttétel: {})"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Stock AEB: Risk of Collision"
+msgstr "Gyári vészfék: ütközésveszély"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Stock LKAS: Lane Departure Detected"
+msgstr "Gyári sávtartó: sávelhagyás"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Switch to Traffic-Aware Cruise Control to engage"
+msgstr "A bekapcsoláshoz válts forgalomkövető tempomatra"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "System Initializing"
+msgstr "A rendszer indul"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "System Lagging"
+msgstr "A rendszer lassan reagál"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "System Overheated"
+msgstr "A rendszer túlmelegedett"
+
 #: openpilot/selfdrive/ui/onroad/alert_renderer.py
 msgid "System Unresponsive"
 msgstr "A rendszer nem válaszol"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "TAKE CONTROL"
+msgstr "VEDD ÁT AZ IRÁNYÍTÁST"
+
 #: openpilot/selfdrive/ui/onroad/alert_renderer.py
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "TAKE CONTROL IMMEDIATELY"
 msgstr "AZONNAL VEDD ÁT AZ IRÁNYÍTÁST"
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "TEMP"
 msgstr "HŐFOK"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Take Control"
+msgstr "Vedd át az irányítást"
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "Target Branch"
@@ -716,9 +1223,29 @@ msgstr "Cél ág"
 msgid "Tethering Password"
 msgstr "Hotspot-jelszó"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Toggle stock LKAS on or off to engage"
+msgstr "A bekapcsoláshoz kapcsold ki, majd be a gyári sávtartót"
+
 #: openpilot/selfdrive/ui/layouts/settings/settings.py
 msgid "Toggles"
 msgstr "Kapcsolók"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Too Distracted"
+msgstr "Túl sokszor voltál figyelmetlen"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Touch Steering Wheel"
+msgstr "Fogd meg a kormányt"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Touch Steering Wheel: No Face Detected"
+msgstr "Fogd meg a kormányt: nem látom az arcod"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Turn Exceeds Steering Limit"
+msgstr "Túl éles kanyar a kormányzáshoz"
 
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "UI Debug Mode"
@@ -739,6 +1266,10 @@ msgstr "Eltávolítás"
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "Unknown"
 msgstr "Ismeretlen"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Unknown Vehicle Variant"
+msgstr "Ismeretlen járműváltozat"
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "Updates are only downloaded while the car is off."
@@ -767,6 +1298,22 @@ msgstr "JÁRMŰ"
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "VIEW"
 msgstr "MEGJELENÍTÉS"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Vehicle Sensors Calibrating"
+msgstr "Járműérzékelők kalibrálása"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Vehicle Sensors Invalid"
+msgstr "Hibás járműérzékelő-adatok"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Vehicle Steering Time Limit"
+msgstr "Lejárt a kormányzási időkorlát"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "WARNING: This branch is not tested"
+msgstr "FIGYELEM: ez az ág nincs tesztelve"
 
 #: openpilot/selfdrive/ui/onroad/alert_renderer.py
 msgid "Waiting to start"
@@ -869,6 +1416,14 @@ msgstr "hagyd üresen az automatikus beállításhoz"
 msgid "left"
 msgstr "balra"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "locationd Permanent Error"
+msgstr "Helymeghatározási hiba (locationd)"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "locationd Temporary Error"
+msgstr "Átmeneti helymeghatározási hiba (locationd)"
+
 #: openpilot/system/ui/widgets/network.py
 msgid "metered"
 msgstr "korlátos"
@@ -892,11 +1447,16 @@ msgstr "nincs figyelmeztetés"
 msgid "now"
 msgstr "most"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "openpilot Canceled"
+msgstr "Az openpilot leállt"
+
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "openpilot Longitudinal Control (Alpha)"
 msgstr "openpilot hosszirányú vezérlés (alfa)"
 
 #: openpilot/selfdrive/ui/onroad/alert_renderer.py
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "openpilot Unavailable"
 msgstr "Az openpilot nem érhető el"
 
@@ -919,9 +1479,37 @@ msgstr ""
 msgid "openpilot requires the device to be mounted within 4° left or right and within 5° up or 9° down."
 msgstr "Az openpilot működéséhez az eszköz legfeljebb 4°-kal térhet el balra vagy jobbra, 5°-kal felfelé és 9°-kal lefelé."
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "openpilot will disengage"
+msgstr "Az openpilot kikapcsol"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid ""
+"pair to connect\n"
+"to view"
+msgstr ""
+"párosítsd a comma connecttel\n"
+"a megtekintéshez"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "paramsd Permanent Error"
+msgstr "Paraméterbecslési hiba (paramsd)"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "paramsd Temporary Error"
+msgstr "Átmeneti paraméterbecslési hiba (paramsd)"
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "right"
 msgstr "jobbra"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "take control"
+msgstr "vedd át az irányítást"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "turn exceeds limit"
+msgstr "túl éles kanyar"
 
 #: openpilot/system/ui/widgets/network.py
 msgid "unmetered"
@@ -961,17 +1549,41 @@ msgid_plural "{} hours ago"
 msgstr[0] "{} órája"
 msgstr[1] "{} órája"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "{} minute Left"
+msgstr "még {} perc"
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "{} minute ago"
 msgid_plural "{} minutes ago"
 msgstr[0] "{} perce"
 msgstr[1] "{} perce"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "{} minutes Left"
+msgstr "még {} perc"
+
 #: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
 msgid "{} segment of your driving is in the training dataset so far."
 msgid_plural "{} segments of your driving is in the training dataset so far."
 msgstr[0] "{} útszakaszod már bekerült a tanító adatkészletbe."
 msgstr[1] "{} útszakaszod már bekerült a tanító adatkészletbe."
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "{} °C"
+msgstr "{} °C"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "{}% frames dropped"
+msgstr "{}% kiesett képkocka"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "{}% full"
+msgstr "{}% foglalt"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "{}% used"
+msgstr "{}% használatban"
 
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "✓ SUBSCRIBED"

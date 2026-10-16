@@ -13,6 +13,7 @@ from openpilot.common.hardware import COMMA_HARDWARE
 from openpilot.system.ui.lib.application import gui_app, FontWeight, TextAlignment
 from openpilot.system.ui.widgets import Widget
 from openpilot.system.ui.widgets.label import UnifiedLabel
+from openpilot.selfdrive.ui.onroad.alert_translations import tr_alert
 
 AlertSize = log.SelfdriveState.AlertSize
 AlertStatus = log.SelfdriveState.AlertStatus
@@ -295,7 +296,7 @@ class AlertRenderer(Widget):
     icon_side = alert_layout.icon.side if alert_layout.icon is not None else None
 
     # TODO: hack
-    alert_text1 = alert.text1.lower().replace('calibrating: ', 'calibrating:\n')
+    alert_text1 = tr_alert(alert.text1).lower().replace('calibrating: ', 'calibrating:\n')
     # TODO: there should be a common way to determine font size based on text length to maximize rect
     if len(alert_text1) <= 12:
       font_size = 92 - 10
@@ -322,7 +323,7 @@ class AlertRenderer(Widget):
     self._alert_text1_label.set_alignment(TextAlignment.LEFT if icon_side != 'left' else TextAlignment.RIGHT)
     self._alert_text1_label.render(text_rect1)
 
-    alert_text2 = alert.text2.lower()
+    alert_text2 = tr_alert(alert.text2).lower()
 
     # randomize chars and length for testing
     if DEBUG:

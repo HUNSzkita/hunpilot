@@ -64,13 +64,25 @@ msgstr ""
 msgid "ADD"
 msgstr "ADD"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "AEB: Risk of Collision"
+msgstr ""
+
 #: openpilot/system/ui/widgets/network.py
 msgid "APN Setting"
 msgstr "APN Setting"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Abnormal tire stiffness"
+msgstr ""
+
 #: openpilot/selfdrive/ui/widgets/offroad_alerts.py
 msgid "Acknowledge Excessive Actuation"
 msgstr "Acknowledge Excessive Actuation"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Adaptive Cruise Disabled"
+msgstr ""
 
 #: openpilot/system/ui/widgets/network.py
 msgid "Advanced"
@@ -84,9 +96,17 @@ msgstr "Aggressive"
 msgid "Agree"
 msgstr "Agree"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Always keep hands on wheel and eyes on road"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Always-On Driver Monitoring"
 msgstr "Always-On Driver Monitoring"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Angle offset too high (Offset: {}°)"
+msgstr ""
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
 msgid "Any fast phone or laptop charger should be fine."
@@ -108,18 +128,54 @@ msgstr "Are you sure you want to reset calibration?"
 msgid "Are you sure you want to uninstall?"
 msgstr "Are you sure you want to uninstall?"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "BRAKE!"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/onboarding.py
 #: openpilot/system/ui/widgets/network.py
 msgid "Back"
 msgstr "Back"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Be ready to take over at any time"
+msgstr ""
+
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "Become a comma prime member at connect.comma.ai"
 msgstr "Become a comma prime member at connect.comma.ai"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Big Model Failed"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Big Model Failed "
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Big Model Loading"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Bookmark Saved"
+msgstr ""
+
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "Bookmark connect.comma.ai to your home screen to use it like an app"
 msgstr "Bookmark connect.comma.ai to your home screen to use it like an app"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "CAN Bus Disconnected"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "CAN Bus Disconnected: Check Connections"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "CAN Bus Disconnected: Likely Faulty Cable"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "CHANGE"
@@ -142,12 +198,72 @@ msgstr "CONNECTING..."
 msgid "Cabin Camera"
 msgstr ""
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Calibrating"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Calibrating: {}%"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Calibration Incomplete"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Calibration Invalid"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Calibration Invalid: Remount Device & Recalibrate"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Calibration in Progress"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Camera Frame Rate Low"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Camera Frame Rate Low: Reboot Your Device"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Camera Malfunction"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Camera Malfunction: Reboot Your Device"
+msgstr ""
+
 #: openpilot/system/ui/widgets/confirm_dialog.py
 #: openpilot/system/ui/widgets/keyboard.py
 #: openpilot/system/ui/widgets/network.py
 #: openpilot/system/ui/widgets/option_dialog.py
 msgid "Cancel"
 msgstr "Cancel"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Cancel Pressed"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Car Detected in Blindspot"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Car Not Ready"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Car Unrecognized"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Car in Blindspot"
+msgstr ""
 
 #: openpilot/system/ui/widgets/network.py
 msgid "Cellular Metered"
@@ -157,9 +273,17 @@ msgstr "Cellular Metered"
 msgid "Change Language"
 msgstr "Change Language"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Changing Lanes"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Changing this setting will restart openpilot if the car is powered on."
 msgstr "Changing this setting will restart openpilot if the car is powered on."
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Check tires, pressure, or alignment (Factor: {})"
+msgstr ""
 
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "Click \"add new device\" and scan the QR code on the right"
@@ -169,13 +293,57 @@ msgstr "Click \"add new device\" and scan the QR code on the right"
 msgid "Close"
 msgstr "Close"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Communication Issue Between Processes"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Confirm Lane Change"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Contact comma.ai/support"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Controls Mismatch"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Cruise Fault: Restart the Car"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Cruise Fault: Restart the car to engage"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Cruise Is Off"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "Current Version"
 msgstr "Current Version"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "DISENGAGE IMMEDIATELY"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "DOWNLOAD"
 msgstr "DOWNLOAD"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Dashcam Mode"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Dashcam mode"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Dashcam mode for unsupported car"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/onboarding.py
 msgid "Decline"
@@ -193,8 +361,16 @@ msgstr "Developer"
 msgid "Device"
 msgstr "Device"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Device Remount Detected: Recalibrating"
+msgstr ""
+
 #: openpilot/selfdrive/ui/mici/layouts/settings/device/device_layout.py
 msgid "Device must be registered with the comma.ai backend to pair."
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Disable your car's stock LKAS to engage"
 msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
@@ -233,9 +409,37 @@ msgstr ""
 msgid "Dongle ID"
 msgstr "Dongle ID"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Door Open"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "Download"
 msgstr "Download"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Drive Above {}"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Drive above {} to engage"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Drive to Calibrate"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Driver Distracted"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Driver Unresponsive"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Driving Model Lagging"
+msgstr ""
 
 #: openpilot/system/ui/widgets/network.py
 msgid "EDIT"
@@ -249,6 +453,18 @@ msgstr "ERROR"
 msgid "ETH"
 msgstr "ETH"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Electronic Stability Control Active"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Electronic Stability Control Disabled"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Emergency Braking: Risk of Collision"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "Enable"
 msgstr "Enable"
@@ -257,9 +473,17 @@ msgstr "Enable"
 msgid "Enable ADB"
 msgstr "Enable ADB"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Enable Adaptive Cruise to Engage"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Enable Lane Departure Warnings"
 msgstr "Enable Lane Departure Warnings"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Enable Main Switch to Engage"
+msgstr ""
 
 #: openpilot/system/ui/widgets/network.py
 msgid "Enable Roaming"
@@ -280,6 +504,14 @@ msgstr "Enable driver monitoring even when openpilot is not engaged."
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Enable openpilot"
 msgstr "Enable openpilot"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Enable your car's LKAS to engage"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Ensure road ahead is clear"
+msgstr ""
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/network/esim_ui.py
 msgid "Ensure you're connected to the internet and try again."
@@ -309,12 +541,20 @@ msgstr "Enter your GitHub username"
 msgid "Error"
 msgstr "Error"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Excessive Actuation"
+msgstr ""
+
 #: openpilot/system/ui/widgets/network.py
 msgid "FORGETTING..."
 msgstr "FORGETTING..."
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/software.py
 msgid "Failed to get available branches. Ensure you're connected to the internet and try again."
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Fan Malfunction"
 msgstr ""
 
 #: openpilot/selfdrive/ui/widgets/setup.py
@@ -334,6 +574,10 @@ msgstr "Firehose Mode"
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Following Distance"
 msgstr "Following Distance"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Following Distance: {}"
+msgstr ""
 
 #: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
 msgid ""
@@ -376,6 +620,14 @@ msgstr ""
 msgid "GOOD"
 msgstr "GOOD"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Gas: {}%, Steer: {}%"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Gear not D"
+msgstr ""
+
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
 msgid "Go to https://connect.comma.ai on your phone"
 msgstr "Go to https://connect.comma.ai on your phone"
@@ -383,6 +635,10 @@ msgstr "Go to https://connect.comma.ai on your phone"
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "HIGH"
 msgstr "HIGH"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Harness Relay Malfunction"
+msgstr ""
 
 #: openpilot/system/ui/widgets/network.py
 msgid "Hidden Network"
@@ -408,12 +664,28 @@ msgstr ""
 msgid "Install Update"
 msgstr "Install Update"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Invalid LKAS setting"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "Joystick Debug Mode"
 msgstr "Joystick Debug Mode"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Joystick Mode"
+msgstr ""
+
 #: openpilot/selfdrive/ui/mici/layouts/settings/initial_cruise_speed.py
 msgid "KPH"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "LKAS Fault: Restart the Car"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "LKAS Fault: Restart the car to engage"
 msgstr ""
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py
@@ -424,13 +696,31 @@ msgstr "LOADING"
 msgid "LTE"
 msgstr "LTE"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Lane Departure Detected"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Lateral Maneuver Mode"
 msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "Longitudinal Maneuver Mode"
 msgstr "Longitudinal Maneuver Mode"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Low Communication Rate Between Processes"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Low Memory"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Low Memory: Reboot Your Device"
+msgstr ""
 
 #: openpilot/selfdrive/ui/mici/onroad/hud_renderer.py
 #: openpilot/selfdrive/ui/onroad/hud_renderer.py
@@ -448,6 +738,10 @@ msgstr ""
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Maximize your training data uploads to improve openpilot's driving models."
 msgstr "Maximize your training data uploads to improve openpilot's driving models."
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Model uncertain at this speed"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "N/A"
@@ -494,6 +788,10 @@ msgstr "ONLINE"
 msgid "Open"
 msgstr "Open"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Out of Storage"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "PAIR"
 msgstr "PAIR"
@@ -527,6 +825,22 @@ msgstr "Pair your device to your comma account"
 msgid "Pair your device with comma connect (connect.comma.ai) and claim your comma prime offer."
 msgstr "Pair your device with comma connect (connect.comma.ai) and claim your comma prime offer."
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Parking Brake Engaged"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Pay Attention"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Pay Attention to Engage"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Pedal Pressed"
+msgstr ""
+
 #: openpilot/selfdrive/ui/widgets/setup.py
 msgid "Please connect to Wi-Fi to complete initial pairing"
 msgstr "Please connect to Wi-Fi to complete initial pairing"
@@ -539,9 +853,29 @@ msgstr ""
 msgid "Please connect to Wi-Fi to update."
 msgstr ""
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Posenet Speed Invalid"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Power Off"
 msgstr "Power Off"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Press Resume"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Press Resume to Exit Brake Hold"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Press Resume to Exit Standstill"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Press Set to Engage"
+msgstr ""
 
 #: openpilot/system/ui/widgets/network.py
 msgid "Prevent large data uploads when on a metered Wi-Fi connection"
@@ -553,6 +887,10 @@ msgstr "Prevent large data uploads when on a metered cellular connection"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Preview the cabin camera to ensure that driver monitoring has good visibility. (vehicle must be off)"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Process Not Running"
 msgstr ""
 
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py
@@ -571,6 +909,14 @@ msgstr "RESET"
 msgid "REVIEW"
 msgstr "REVIEW"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Radar Error: Restart the Car"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Radar Temporarily Unavailable"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Reboot"
 msgstr "Reboot"
@@ -582,6 +928,14 @@ msgstr "Reboot Device"
 #: openpilot/selfdrive/ui/widgets/offroad_alerts.py
 msgid "Reboot and Update"
 msgstr "Reboot and Update"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Reboot your Device"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Recalibrating: {}%"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Receive alerts to steer back into the lane when your vehicle drifts over a detected lane line without a turn signal activated while driving over 31 mph (50 km/h)."
@@ -607,6 +961,10 @@ msgstr "Regulatory"
 msgid "Relaxed"
 msgstr "Relaxed"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Release Brake to Engage"
+msgstr ""
+
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "Remote access"
 msgstr "Remote access"
@@ -614,6 +972,14 @@ msgstr "Remote access"
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "Remote snapshots"
 msgstr "Remote snapshots"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Remount Detected: Recalibrating"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Remount Device (Pitch: {}°, Yaw: {}°)"
+msgstr ""
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py
 msgid "Request timed out"
@@ -627,6 +993,30 @@ msgstr "Reset"
 msgid "Reset Calibration"
 msgstr "Reset Calibration"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid ""
+"Restart the car to retry,\n"
+"small model is still available"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Resume Driving Manually"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Reverse"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid ""
+"Reverse\n"
+"Gear"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Reverse Gear"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Review Training Guide"
 msgstr "Review Training Guide"
@@ -634,6 +1024,10 @@ msgstr "Review Training Guide"
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Review the rules, features, and limitations of openpilot"
 msgstr "Review the rules, features, and limitations of openpilot"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Risk of Collision"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "SELECT"
@@ -647,6 +1041,14 @@ msgstr "SSH Keys"
 msgid "Scanning Wi-Fi networks..."
 msgstr "Scanning Wi-Fi networks..."
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Seatbelt Unlatched"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Security Key Not Available"
+msgstr ""
+
 #: openpilot/system/ui/widgets/option_dialog.py
 msgid "Select"
 msgstr "Select"
@@ -659,9 +1061,21 @@ msgstr "Select a branch"
 msgid "Select a language"
 msgstr "Select a language"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Selfdrive Process Lagging: Reboot Your Device"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Sensor Data Invalid"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "Serial"
 msgstr "Serial"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Slow down to engage"
+msgstr ""
 
 #: openpilot/selfdrive/ui/widgets/offroad_alerts.py
 msgid "Snooze Update"
@@ -671,6 +1085,18 @@ msgstr "Snooze Update"
 msgid "Software"
 msgstr "Software"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Speed Error: {} m/s"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Speed Too High"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Speed too low"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py
 msgid "Standard"
 msgstr "Standard"
@@ -679,17 +1105,94 @@ msgstr "Standard"
 msgid "Standard is recommended. In aggressive mode, openpilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode openpilot will stay further away from lead cars. On supported cars, you can cycle through these settings with your steering wheel distance button."
 msgstr ""
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steer Assist Unavailable Below {}"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steer Left"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steer Left to Start Lane Change Once Safe"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steer Right"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steer Right to Start Lane Change Once Safe"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steer ratio mismatch"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steering Assist Temporarily Unavailable"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steering Pressed"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steering Temporarily Unavailable"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steering misalignment detected"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Steering rack geometry may be off (Ratio: {})"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Stock AEB: Risk of Collision"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Stock LKAS: Lane Departure Detected"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Switch to Traffic-Aware Cruise Control to engage"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "System Initializing"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "System Lagging"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "System Overheated"
+msgstr ""
+
 #: openpilot/selfdrive/ui/onroad/alert_renderer.py
 msgid "System Unresponsive"
 msgstr "System Unresponsive"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "TAKE CONTROL"
+msgstr ""
+
 #: openpilot/selfdrive/ui/onroad/alert_renderer.py
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "TAKE CONTROL IMMEDIATELY"
 msgstr "TAKE CONTROL IMMEDIATELY"
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "TEMP"
 msgstr "TEMP"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Take Control"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "Target Branch"
@@ -699,9 +1202,29 @@ msgstr "Target Branch"
 msgid "Tethering Password"
 msgstr "Tethering Password"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Toggle stock LKAS on or off to engage"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/settings.py
 msgid "Toggles"
 msgstr "Toggles"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Too Distracted"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Touch Steering Wheel"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Touch Steering Wheel: No Face Detected"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Turn Exceeds Steering Limit"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "UI Debug Mode"
@@ -722,6 +1245,10 @@ msgstr "Uninstall"
 #: openpilot/selfdrive/ui/layouts/sidebar.py
 msgid "Unknown"
 msgstr "Unknown"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Unknown Vehicle Variant"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "Updates are only downloaded while the car is off."
@@ -750,6 +1277,22 @@ msgstr "VEHICLE"
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "VIEW"
 msgstr "VIEW"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Vehicle Sensors Calibrating"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Vehicle Sensors Invalid"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "Vehicle Steering Time Limit"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "WARNING: This branch is not tested"
+msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/alert_renderer.py
 msgid "Waiting to start"
@@ -852,6 +1395,14 @@ msgstr "leave blank for automatic configuration"
 msgid "left"
 msgstr "left"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "locationd Permanent Error"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "locationd Temporary Error"
+msgstr ""
+
 #: openpilot/system/ui/widgets/network.py
 msgid "metered"
 msgstr "metered"
@@ -875,11 +1426,16 @@ msgstr ""
 msgid "now"
 msgstr "now"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "openpilot Canceled"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/developer.py
 msgid "openpilot Longitudinal Control (Alpha)"
 msgstr "openpilot Longitudinal Control (Alpha)"
 
 #: openpilot/selfdrive/ui/onroad/alert_renderer.py
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
 msgid "openpilot Unavailable"
 msgstr "openpilot Unavailable"
 
@@ -899,9 +1455,35 @@ msgstr ""
 msgid "openpilot requires the device to be mounted within 4° left or right and within 5° up or 9° down."
 msgstr "openpilot requires the device to be mounted within 4° left or right and within 5° up or 9° down."
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "openpilot will disengage"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid ""
+"pair to connect\n"
+"to view"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "paramsd Permanent Error"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "paramsd Temporary Error"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/device.py
 msgid "right"
 msgstr "right"
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "take control"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "turn exceeds limit"
+msgstr ""
 
 #: openpilot/system/ui/widgets/network.py
 msgid "unmetered"
@@ -941,17 +1523,41 @@ msgid_plural "{} hours ago"
 msgstr[0] "{} hour ago"
 msgstr[1] "{} hours ago"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "{} minute Left"
+msgstr ""
+
 #: openpilot/selfdrive/ui/layouts/settings/software.py
 msgid "{} minute ago"
 msgid_plural "{} minutes ago"
 msgstr[0] "{} minute ago"
 msgstr[1] "{} minutes ago"
 
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "{} minutes Left"
+msgstr ""
+
 #: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
 msgid "{} segment of your driving is in the training dataset so far."
 msgid_plural "{} segments of your driving is in the training dataset so far."
 msgstr[0] ""
 msgstr[1] ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "{} °C"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "{}% frames dropped"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "{}% full"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_translations.py
+msgid "{}% used"
+msgstr ""
 
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "✓ SUBSCRIBED"
