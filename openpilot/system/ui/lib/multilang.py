@@ -31,6 +31,7 @@ FONT_FALLBACK_LANGUAGES = [
 PLURAL_SELECTORS = {
   'en': lambda n: 0 if n == 1 else 1,
   'de': lambda n: 0 if n == 1 else 1,
+  'hu': lambda n: 0 if n == 1 else 1,
   'fr': lambda n: 0 if n <= 1 else 1,
   'pt-BR': lambda n: 0 if n <= 1 else 1,
   'es': lambda n: 0 if n == 1 else 1,
